@@ -35,13 +35,16 @@ editor_options:
 
 ### Presentations
 
-(https://github.com/higgins5/portfolio/blob/main/presentations/\_\_\_.pdf)
+(https://github.com/higgins5/portfolio/blob/main/presentations/.pdf)
 
 ```{r}
 #| output: false
 avg_years_between_eruptions <- mean(diff(eruptions[-n_eruptions]))
 avg_years_between_eruptions
 ```
+
+### Posters
+(https://github.com/higgins5/portfolio/blob/main/documents/.pdf)
 
 
 
