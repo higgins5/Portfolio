@@ -1,17 +1,14 @@
 project:
   type: manuscript
+  execute-dir: project
 
-execute:
-  freeze: auto
+manuscript: 
+  article: index.qmd
 
 format:
-  html:
-    toc: true
-    comments:
-      hypothesis: true
+  html: default
   docx: default
-  jats: default
-  agu-pdf: default
 
-
+execute: 
+  freeze: auto
 
