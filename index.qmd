@@ -37,14 +37,9 @@ editor_options:
 
 (https://github.com/higgins5/portfolio/blob/main/presentations/.pdf)
 
-```{r}
-#| output: false
-avg_years_between_eruptions <- mean(diff(eruptions[-n_eruptions]))
-avg_years_between_eruptions
-```
 
 ### Posters
-(https://github.com/higgins5/portfolio/blob/main/documents/.pdf)
+[Mindfulness Mechanisms & Methods Meeting (2023)](https://github.com/higgins5/Portfolio-/blob/main/documents/Higgins_M42023_poster.pdf)
 
 
 
