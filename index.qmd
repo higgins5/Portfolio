@@ -16,30 +16,137 @@ editor_options:
 
 ### Supporting Documents
 
--   [Current CV]()\
+-   [Current CV](https://github.com/higgins5/portfolio/blob/main/documents/EstelleHiggins_CV_062025.pdf)
 -   [Unofficial Transcript](https://github.com/higgins5/portfolio/blob/main/documents/transcript.pdf)
 
 ## Research Experiences
 
 ### Research Statement
 
+statement: 
+
 ### First-Author Publications
 
-1.  **Higgins, E. T.**,
+**Higgins, E. T.**, Busse, W. W., Esnault, S., Christian, B. T., Klaus, D. R., Bach, J. C., Frye, C. J., Rosenkranz, M. A. (2025). Fueling the fire in the lung-brain axis: the salience network connects allergen-provoked TH17 responses to psychological stress in asthma. Brain, Behavior, & Immunity, *need to add details once in press*  
+Relative contributions: 
 
-2.  **Higgins, E. T.**,
+
+**Higgins, E. T.**, Davidson, R. J., Busse, W. W., Klaus, D. R., Bednarek, G. T., Goldman, R. I., Sachs, J., & Rosenkranz, M. A. (2022). Clinically relevant effects of Mindfulness-Based Stress Reduction in individuals with asthma. *Brain, Behavior, & Immunity - Health, 25,* 100509.  [Link](https://doi.org/10.1016/j.bbih.2022.100509)  
 
 ### Coauthor Publications
 
-1.  
+Abercrombie, H., Barnes, A., Nord, E., Finley, A., **Higgins, E.T.**, Grupe, D., Rosenkranz, M. A., Davidson, R. J., Schaefer, S. M. (2023). Inverse association between stress induced cortisol elevations and negative emotional reactivity to stress in humans. *Stress, 26*(1), 2174780. [Link](https://doi.org/10.1080/10253890.2023.2174780)
 
 ### Presentations
 
-(https://github.com/higgins5/portfolio/blob/main/presentations/.pdf)
+Authors (2025, May). *Capstone title*.  Presented at the UW-Madison Clinical Psychology departmental weekly lunch and learn proseminar.   
+Abstract:  
+
+Slides available [here](https://github.com/higgins5/portfolio/blob/main/documents/presentations/.pdf)  
+
+**Higgins, E. T.**, Busse, W. W., Esnault, S., Klaus, D. R., Frye, C. J., & Rosenkranz, M. A. (2024, June). *Brain and cortisol responses to psychosocial stress are associated with provoked airway inflammation in Th17-related pathways in asthma.* Presentated at the 2024 Psychoneuroimmunology Research Society Annual Meeting, Halifax, Nova Scotia, Canada.  
+**Abstract:** Individuals with asthma, a widespread chronic inflammatory disease of the airways, suffer increased prevalence and impact of stress, depression, and anxiety. Emotion-related neurocircuitry, activated by psychological stress, may intensify airway inflammatory responses. However, little is known about the neural mechanisms and descending pathways important in the context of acute stress and allergen exposure. In a within-subjects design with 28 adults with asthma, we measured brain glucose metabolism during the Trier Social Stress Test (TSST) and a non-stressful control task using [18F]fluorodeoxyglucose positron emission tomography (PET). Salivary cortisol was collected during the stress/control task and PET scan, to quantify physiological stress responses. Airway inflammation was measured using fraction of exhaled nitric oxide (FeNO), sputum % eosinophils, and expression of mRNA from cytokines produced by Th17 cells, before and 24hr after airway provocation with whole-lung allergen challenge (WL-AG). Acute stress significantly increased salivary cortisol (stats), but did not significantly increase airway inflammation overall. Following stress, salivary cortisol was correlated with IL-23A mRNA expression (t(22.1) = 2.38, p = 0.026) and FeNO (t(21.5) = 2.17, p = 0.041). In the brain, acute psychosocial stress was associated with increased glucose metabolism in the cerebellum and decreased motor cortex activity, relative to the control condition. Salivary cortisol was positively correlated with glucose metabolism in regions including the salience network. Importantly, acute stress-evoked salience network glucose metabolism predicted increased IL-23A mRNA expression following WL-AG. Results advance our understanding of the efferent arm of the lung-brain axis in humans. Although acute stress did not significantly increase airway inflammation in the whole group, results indicate that individual differences in brain and cortisol responses to acute psychosocial stress are associated with provoked airway inflammation in Th17-related pathways. This work motivates the need to tailor asthma interventions to individual variation in pulmonary and extrapulmonary processes in airway diseases.  
+
+
+Slides available [here](https://github.com/higgins5/portfolio/blob/main/documents/presentations/Higgins_PNIRS2024_presentation.pdf)  
+
+
+**Higgins, E. T.**, ... (2023, November). *Challenging the Brain & Lungs: Impacts of acute stress on the brain, cortisol, and inflammatory responses in asthma*. Presented at the 38th Annual First Year Project Symposium Madison, WI.  
+**Abstract:** Individuals with asthma, a common chronic inflammatory disease of the airways, suffer increased prevalence and impact of stress, depression, and anxiety. Emotion-related neurocircuitry, activated by psychological stress, may intensify airway inflammatory responses. However, little is known about the neural mechanisms and descending pathways important in the context of acute stress and allergen exposure. In 28 adults with asthma, we measured brain glucose metabolism during the Trier Social Stress Test (TSST) and a non-stressful control test using [18F]fluorodeoxyglucose positron emission tomography (PET), with a within-subjects design. Salivary cortisol was collected during the stress/control test and PET scan, to quantify physiological stress responses. Airway inflammation was measured using fraction of exhaled nitric oxide (FeNO), sputum % eosinophils, and Th17 mRNA transcript expression before and 24hr after airway provocation with whole-lung allergen challenge (WL-AG). Acute psychosocial stress was associated with increased glucose metabolism in the cerebellum and decreased motor cortex activity, relative to the control condition. Significantly increased cortisol during stress was positively correlated with glucose metabolism in regions including those in the salience network, and correlated with IL-23A mRNA expression (t(22.1) = 2.38, p = .026) and FeNO (t(21.5) = 2.17, p = .041) following stress. Importantly, stress-evoked amygdala and dorsal anterior cingulate cortex activity predicted increased IL-23A mRNA expression following WL-AG. Contrary to hypotheses, however, acute stress did not significantly increase airway inflammation. This project advances the understanding of the efferent arm of the lung-brain axis in humans. Results indicate that individual differences in brain and cortisol responses to acute psychosocial stress are associated with provoked airway inflammation in the Th17 pathway. This work moves us closer to tailoring asthma prevention and treatment to individual differences in both pulmonary and extrapulmonary processes in airway diseases.  
+
+Slides available [here](https://github.com/higgins5/portfolio/blob/main/documents/presentations/Higgins_FYP_final.pdf)  
+
+**Higgins, E. T.**, ... (2023, October 30). *Challenging the Brain & Lungs: Impacts of acute stress on the brain, cortisol, and inflammatory responses in asthma*. Presented at the UW-Madison Clinical Psychology departmental weekly lunch and learn proseminar.   
+**Abstract:** Individuals with asthma, a common chronic inflammatory disease of the airways, suffer increased prevalence and impact of stress, depression, and anxiety. Emotion-related neurocircuitry, activated by psychological stress, may intensify airway inflammatory responses. However, little is known about the neural mechanisms and descending pathways important in the context of acute stress and allergen exposure. In 28 adults with asthma, we measured brain glucose metabolism during the Trier Social Stress Test (TSST) and a non-stressful control test using [18F]fluorodeoxyglucose positron emission tomography (PET), with a within-subjects design. Salivary cortisol was collected during the stress/control test and PET scan, to quantify physiological stress responses. Airway inflammation was measured using fraction of exhaled nitric oxide (FeNO), sputum % eosinophils, and Th17 mRNA transcript expression before and 24hr after airway provocation with whole-lung allergen challenge (WL-AG). Acute psychosocial stress was associated with increased glucose metabolism in the cerebellum and decreased motor cortex activity, relative to the control condition. Significantly increased cortisol during stress was positively correlated with glucose metabolism in regions including those in the salience network, and correlated with IL-23A mRNA expression (t(22.1) = 2.38, p = .026) and FeNO (t(21.5) = 2.17, p = .041) following stress. Importantly, stress-evoked amygdala and dorsal anterior cingulate cortex activity predicted increased IL-23A mRNA expression following WL-AG. Contrary to hypotheses, however, acute stress did not significantly increase airway inflammation. This project advances the understanding of the efferent arm of the lung-brain axis in humans. Results indicate that individual differences in brain and cortisol responses to acute psychosocial stress are associated with provoked airway inflammation in the Th17 pathway. This work moves us closer to tailoring asthma prevention and treatment to individual differences in both pulmonary and extrapulmonary processes in airway diseases.   
+
+Slides available [here](https://github.com/higgins5/portfolio/blob/main/documents/presentations/Higgins_clinical_prosem_2023.pdf)
+
+
+**Higgins, E. T.**, Busse, W. W., Esnault, S., Klaus, D. R., & Rosenkranz, M. A. (2023, June). *Chronic Stress Moderates Effects of Acute Stress on Allergen-Induced Asthmatic Inflammation.* Presented virtually at the 2023 Plasticity of Well-being Summer Workshop, Madison, WI.  
+Abstract:  
+Neurocircuitry recruited by psychological stress may magnify asthmatic airway inflammation, but little is known about the neural and molecular mechanisms.
+During the Trier Social Stress Test (TSST), we measured brain glucose metabolism (FDG-PET) and salivary cortisol. Airway inflammation was measured before and 24hr after airway allergen challenge (AG).
+Higher chronic stress predicted less increase in sputum eosinophils but greater increase in IL-17 mRNA expression following TSST and AG. Increased cortisol during the TSST correlated with greater salience network activation, which also predicted greater IL-23A and less CCL2 mRNA expression.
+Overall, chronic stress moderated acute stress’ effects on AG-induced airway inflammation, and TSST-related neural activity predicted IL-17 pathway signaling. Results offer insight into brain-to-lung signaling following acute stress, superimposed on varying levels of chronic stress, which may impact which inflammatory pathways AG exposure engages.
+
+Slides available [here](https://github.com/higgins5/portfolio/blob/main/documents/presentations/Higgins_PWB_u24workshop.pdf)  
+
+
+**Higgins, E. T.**, Busse, W. W., Esnault, S., Klaus, D., & Rosenkranz, M. A. (2023, February). *Stress neurocircuitry and airway inflammation in asthma.* Presented at the Psychoneuroimmunology Research Society Virtual Trainee Event.  
+Abstract:  
+Asthma is a highly prevalent airway disease marked by episodic and recurrent respiratory symptoms and increased prevalence and impact of stress, depression, and anxiety. Psychological stress intensifies airway inflammatory responses, likely contributing to individual differences in asthma pathobiology and incomplete symptom management. Given the role of Th17-associated pathways in both airway inflammation and psychological distress, they may link emotion-related neurocircuitry and asthmatic inflammation. However, the neural mechanisms and descending pathways by which psychological stress impacts asthmatic inflammation are largely unknown.   
+To assess the effects of acute stress on neurocircuitry, we measured brain glucose metabolism during the Trier Social Stress Test (TSST) using [F-18]fluorodeoxyglucose positron emission tractography. Salivary cortisol was collected to quantify physiological stress responses. Airway inflammatory measurements were acquired before and 24hr after airway provocation with whole-lung allergen challenge (WL-AG).  
+Salivary cortisol area under the curve (AUC) was significantly greater during the TSST, relative to control condition (t(50) = -2.8, p = .007). Cortisol also showed a quadratic trend over time during the TSST, relative to control condition (t(319) = -4.15, p < .001). Stress-evoked cortisol AUC was positively correlated with glucose metabolism in the bilateral insulae, anterior cingulate cortex (ACC), R amygdala, and cerebellum. Importantly, stress-evoked neural activity in bilateral amygdalae predicted increased expression of IL-23A mRNA in sputum following WL-AG.  
+Results confirm that a greater physiological response to stress is associated with increased neural activity in stress- and emotion-responsive regions. Moreover, correlations between stress-evoked bilateral amygdalae activation and subsequent increased IL-23A mRNA expression following allergen challenge support our hypothesis that stress-related neurocircuitry predicts enhanced inflammatory signaling capacity. These results provide insight into potential brain-to-lung signaling pathways in response to psychosocial stress, which may ultimately suggest novel targets for asthma management.
+
+Slides available [here](https://github.com/higgins5/portfolio/blob/main/documents/presentations/Higgins_PNIRStrainee_presentation2023.pdf)    
+Program available [here](https://github.com/higgins5/portfolio/blob/main/documents/workshops/PNIRS_TraineeEventProgram.pdf)  
+
+**Higgins, E. T.**, Davidson, R. J., & Rosenkranz, M. A. (2022, September). *Brain functional changes associated with mindfulness training in asthma.* Presentation at the Autumn School Mini Congress, Castle Rauischholzhausen, Ebsdorfergrund, Germany.  
+Abstract:  
+Psychological distress can negatively impact asthma control, airway inflammation, and treatment efficacy. Interventions that target emotion reactivity and regulation, such as Mindfulness-Based Stress Reduction (MBSR), have shown benefit in improving asthma control. Brain networks involved in emotion-processing have been linked to both mindfulness practice and asthma-related immune modulation; however, whether regions within these networks mediate MBSR’s impact on disease-related outcomes is unknown. 
+Adults with asthma were randomized to an 8-week MBSR training (n = 35) or wait-list control group (n = 34). At baseline, post-intervention, and 4months post-intervention, we collected clinically-relevant asthma and psychological outcomes, and functional magnetic resonance imaging in response to emotionally-salient cues. 
+Mindfulness training decreased amygdala and lateral prefrontal cortex responses to emotionally-salient cues relative to wait-list controls, which was correlated with MBSR-related increases in mindfulness. Additionally, increased anterior cingulate cortex response was associated with MBSR-related asthma control improvements and decreased depressive symptoms, but also with decreased mindfulness and increased distress over time. For both groups, reduced insula responses to emotionally-salient cues correlated with decreased distress and inflammation. 
+In asthmatic adults, MBSR training changed neural responses to emotionally-salient cues, which was associated with increased mindfulness and asthma control. This suggests that mindfulness training alters the reactivity and regulation of neural responses to emotionally-salient cues, which predicts symptom improvements. In all participants, decreased neural responses in emotion-relevant regions correlated with reduced distress and inflammation, advancing understandings of the complex neural mechanisms linking emotion and asthma. Overall, our results highlight the importance of targeting mind-body relationships in asthma treatment. 
+
+
+Slides available [here](https://github.com/higgins5/portfolio/blob/main/documents/presentations/Higgins_EPN2022_presentation.pdf)  
+
+
+
+### Workshops and Trainings Attended 
+
+Name: Adult Mental Health First Aid Training    
+Organization: National Council for Mental Wellbeing      
+Date: March 2025    
+Description:  
+
+Modules available [here](https://github.com/higgins5/portfolio/blob/main/documents/workshops/MHFA_modules.pdf)   
+
+
+Name: 2023 Functional Magnetic Resonance Imaging of the Brain (FMRIB) Software Library (FSL) Course  
+Organization: FMRIB Analysis Group, Oxford University, UK    
+Date: September 2023    
+Description:  
+
+Materials available [here](https://github.com/higgins5/portfolio/blob/main/documents/workshops/FSL_Course_Material.pdf)   
+Certificate available [here](https://github.com/higgins5/portfolio/blob/main/documents/workshops/FSL_Course_Certificate.pdf)
+
+
+Name: The Lung-Brain Axis in Health & Disease  
+Organization: European Psychoneuroimmunology Network    
+Date: September 2022    
+Description:  
+
+Schedule available [here](https://github.com/higgins5/portfolio/blob/main/documents/workshops/Lung_brain_axis_workshop_schedule.pdf)
 
 
 ### Posters
-[Mindfulness Mechanisms & Methods Meeting (2023)](https://github.com/higgins5/Portfolio-/blob/main/documents/Higgins_M42023_poster.pdf)
+
+**Higgins, E. T.**, Busse, W. W., & Rosenkranz, M. A. (2025). Functional cerebellar subnuclei are associated with stress-related responses to acute psychosocial stress in asthma. Poster to be presentated at the Psychoneuroimunnology Research Society Annual Meeting: June, 2025; Bordeaux, France. 
+
+**Higgins, E. T.**, Recchio, J., Nord, E., Barnes, A., Gresham, L., Rosenkranz, M. A., Davidson, R. J., Slavich, G. M., & Schaefer, S. M. (2025). Inflammation and lifetime stressor severity are associated with blunted cortisol but not skin conductance responses to acute psychosocial stress. Citation poster presentation at the Society for Biopsychosocial Science and Medicine Annual Meeting; March, 2025; Seattle, WA  
+Poster available [here](https://github.com/higgins5/Portfolio-/blob/main/documents/posters/Higgins_SBSM2025_poster.png)   
+
+
+Haeffner, C. E., **Higgins, E. T.**, Laubacher, C. M., Gresham, L. K., Barnes, A. L., Skinner, S. E., Abercrombie, H. C., Rosenkranz, M. A., Davidson, R. J., Slavich, G. M., Schaefer, S. M. Associations between lifetime stressor severity, amygdala and hippocampal volumes, and cortisol responses to acute stress. Poster presentation at the Society for Affective Science Conference; March, 2025; Portland, OR.  
+
+
+Morris, J., Poster, C., **Higgins, E. T.**, Sankaran, K., Mroczek, D., Schaefer, S. M. (2025). The time course of negative emotion and associations with time spent on work. Poster presentation at the Society for Affective Science Conference; March, 2025; Portland, OR.  
+
+
+**Higgins, E. T.**, Busse, W. W., Grupe, D. W., Davidson, R. J., Rosenkranz, M. A. Mindfulness-Based Stress Reduction alters neural responses associated with asthma outcomes. Poster presented at the Mindfulness Mechanisms & Methods Meeting. October, 2023; St. Louis, MS.  
+Poster available [here](https://github.com/higgins5/Portfolio-/blob/main/documents/posters/Higgins_M42023_poster.pdf)  
+
+
+**Higgins, E. T.**, Davidson, R. J., Busse, W. W., & Rosenkranz, M. A. Brain functional changes associated with mindfulness training-related improvement in asthma control. Featured poster presentation at American Academy of Asthma, Allergy, & Inflammation (AAAAI) Annual Meeting; February, 2022; Phoenix, AZ.   
+Poster available [here](https://github.com/higgins5/Portfolio-/blob/main/documents/posters/AAAAI_poster_final.pdf)  
+
+
+
+## Teaching and Mentoring
+
+During my post-baccalaureate internship, I led several statistical presentations and discussions at Rosenkranz Lab meetings, including topics such as Piecewise Linear Mixed Models, Advanced Outlier Detection, and Effect Sizes in Longitudinal/Mixed Model Analyses. I also provided statistical guidance and visualizations to collaborators for multilevel modeling of salivary cortisol data. In the spring of 2023, I worked closely with an honors neuroscience senior undergraduate to offer statistical guidance, writing and poster feedback, and career-related mentorship. I am currently supervising an undergraduate in the initial stages of data collection and advising her on an independent research project. I am excited to continue directly advising undergraduates.
 
 
 
