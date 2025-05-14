@@ -66,7 +66,7 @@ statement:
     -   Writing - 5%\
 -   Full-text PDF available [here](https://github.com/higgins5/Portfolio/blob/main/documents/manuscripts/Abercrombie_etal2024-Stress.pdf)
 
-### In-Progress Manuscripts (Meaningful Empirical Study)
+### Additional/Significant Research Products
 
 1.  **Higgins, E. T.**, Busse, W. W., Klaus, D., Grupe, D. W., Davidson, R. J., & Rosenkranz, M. A. (in progress). Mindfulness-Based Stress Reduction alters neural responses associated with asthma outcomes.
 
@@ -76,6 +76,12 @@ statement:
 \**Co-first-authors*
 
     **Abstract**: Severe stress is linked to structural changes in the amygdala and hippocampus, limbic regions with roles in regulating hypothalamic-pituitary-adrenal (HPA) responses to acute stress. Yet, how these amygdalar and hippocampal structural changes may in turn influence subsequent acute biological stress responses remains unclear. 249 individuals (aged 25-65) completed the Stress and Adversity Inventory (STRAIN), underwent structural magnetic resonance imaging (MRI), and provided salivary cortisol samples during their reactivity to and recovery from a psychosocial stress paradigm, the Trier Social Stress Test (TSST). Linear regression and piecewise mixed-effects models were used to examine relations between lifetime stressor severity, amygdalar and hippocampal volumes, and cortisol response patterns. Lifetime stressor severity from the STRAIN was associated with both smaller amygdala and hippocampal volumes, adjusted for intracranial volume (ICV) and cohort (data collected before vs. after Covid-19 pandemic shutdowns), but only associations with the hippocampus remained at trend when age, sex at birth, and race were included in the model. Flatter cortisol reactivity and recovery patterns and lower peak cortisol were associated with smaller amygdala and hippocampal volumes and greater lifetime stressor severity. These results confirm the expected intersections between stress exposure, amygdalar and hippocampal structure, and cortisol response dynamics of acute stress responses such that more severe lifetime stress is associated with smaller amygdalar and hippocampal volumes and flatter cortisol reactivity and recovery patterns to acute laboratory stress.\
+    
+    
+3. National Science Foundation Graduate Research Fellowship Program application (2023)\
+    
+    Research Proposal can be found [here](https://github.com/higgins5/Portfolio/blob/main/documents/manuscripts/Higgins_NSF2023_Proposal).\
+    Applicant reviews can be found [here](https://github.com/higgins5/Portfolio/blob/main/documents/manuscripts/Higgins_NSF2023_applicantreviews.pdf).\
 
 ### Presentations
 
