@@ -1,30 +1,154 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="generator" content="quarto-1.8.4">
 
-<meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.4">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta name="author" content="Estelle Higgins">
+    <meta name="dcterms.date" content="2025-05-15">
 
-<meta name="author" content="Estelle Higgins">
-<meta name="dcterms.date" content="2025-05-15">
+    <title>Clinical Psychology Portfolio</title>
+    <style>
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      div.columns{display: flex; gap: min(4vw, 1.5em);}
+      div.column{flex: auto; overflow-x: auto;}
+      div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+      ul.task-list{list-style: none;}
+      ul.task-list li input[type="checkbox"] {
+        width: 0.8em;
+        margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+        vertical-align: middle;
+      }
+      /* CSS for syntax highlighting */
+      html { -webkit-text-size-adjust: 100%; }
+      pre > code.sourceCode { white-space: pre; position: relative; }
+      pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+      pre > code.sourceCode > span:empty { height: 1.2em; }
+      .sourceCode { overflow: visible; }
+      code.sourceCode > span { color: inherit; text-decoration: inherit; }
+      div.sourceCode { margin: 1em 0; }
+      pre.sourceCode { margin: 0; }
+      @media screen {
+      div.sourceCode { overflow: auto; }
+      }
+      @media print {
+      pre > code.sourceCode { white-space: pre-wrap; }
+      pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+      }
+      pre.numberSource code
+        { counter-reset: source-line 0; }
+      pre.numberSource code > span
+        { position: relative; left: -4em; counter-increment: source-line; }
+      pre.numberSource code > span > a:first-child::before
+        { content: counter(source-line);
+          position: relative; left: -1em; text-align: right; vertical-align: baseline;
+          border: none; display: inline-block;
+          -webkit-touch-callout: none; -webkit-user-select: none;
+          -khtml-user-select: none; -moz-user-select: none;
+          -ms-user-select: none; user-select: none;
+          padding: 0 4px; width: 4em;
+        }
+      pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+      div.sourceCode
+        {   }
+      @media screen {
+      pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+      }
+    </style>
 
-<title>Clinical Psychology Portfolio</title>
-<style>
-code{white-space: pre-wrap;}
-span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
-div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-ul.task-list{list-style: none;}
-ul.task-list li input[type="checkbox"] {
-  width: 0.8em;
-  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
-  vertical-align: middle;
-}
-</style>
+    <style>
+      body.hypothesis-enabled #quarto-embed-header {
+        padding-right: 36px;
+      }
 
+      #quarto-embed-header {
+        height: 3em;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: solid 1px;
+      }
 
+      #quarto-embed-header h6 {
+        font-size: 1.1em;
+        padding-top: 0.6em;
+        margin-left: 1em;
+        margin-right: 1em;
+        font-weight: 400;
+      }
+
+      #quarto-embed-header a.quarto-back-link,
+      #quarto-embed-header a.quarto-download-embed {
+        font-size: 0.8em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 1em;
+        margin-right: 1em;
+      }
+
+      .quarto-back-container {
+        padding-left: 0.5em;
+        display: flex;
+      }
+
+      .headroom {
+          will-change: transform;
+          transition: transform 200ms linear;
+      }
+
+      .headroom--pinned {
+          transform: translateY(0%);
+      }
+
+      .headroom--unpinned {
+          transform: translateY(-100%);
+      }      
+    </style>
+
+    <script>
+    window.document.addEventListener("DOMContentLoaded", function () {
+
+      var header = window.document.querySelector("#quarto-embed-header");
+      const titleBannerEl = window.document.querySelector("body > #title-block-header");
+      if (titleBannerEl) {
+        titleBannerEl.style.paddingTop = header.clientHeight + "px";
+      }
+      const contentEl = window.document.getElementById('quarto-content');
+      for (const child of contentEl.children) {
+        child.style.paddingTop = header.clientHeight + "px";
+        child.style.marginTop = "1em";
+      }
+
+      // Use the article root if the `back` call doesn't work. This isn't perfect
+      // but should typically work
+      window.quartoBackToArticle = () => {
+        var currentUrl = window.location.href;
+        window.history.back();
+        setTimeout(() => {
+            // if location was not changed in 100 ms, then there is no history back
+            if(currentUrl === window.location.href){              
+                // redirect to site root
+                window.location.href = "index.html";
+            }
+        }, 100);
+      }
+
+      const headroom = new window.Headroom(header, {
+        tolerance: 5,
+        onPin: function () {
+        },
+        onUnpin: function () {
+        },
+      });
+      headroom.init();
+    });
+    </script>
+
+    
+<script src="site_libs/manuscript-notebook/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -36,9 +160,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-665e19a24cf68db1dcb49e6775500a3f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-
-
-<meta name="citation_title" content="Clinical Psychology Portfolio">
+     
+      <meta name="citation_title" content="Clinical Psychology Portfolio">
 <meta name="citation_author" content="Estelle Higgins">
 <meta name="citation_publication_date" content="2025-05-15">
 <meta name="citation_cover_date" content="2025-05-15">
@@ -47,9 +170,16 @@ ul.task-list li input[type="checkbox"] {
 <meta name="citation_language" content="en">
 </head>
 
-<body class="quarto-light">
+  <body class="quarto-notebook quarto-light">
+    <div id="quarto-embed-header" class="headroom fixed-top bg-primary">
+      
+      <a onclick="window.quartoBackToArticle(); return false;" class="btn btn-primary quarto-back-link" href=""><i class="bi bi-caret-left"></i> Back to Article</a>
+      <h6><i class="bi bi-journal-code"></i> Article Notebook</h6>
 
-<header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
+            <a href="./index.qmd" class="btn btn-primary quarto-download-embed" download="index.qmd">Download Source</a>
+          </div>
+
+     <header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
       <h1 class="title">Clinical Psychology Portfolio</h1>
@@ -86,7 +216,7 @@ ul.task-list li input[type="checkbox"] {
               </div>
       </div>
       <div class="quarto-title-meta-column-end quarto-other-formats-target">
-      <div class="quarto-alternate-formats"><div class="quarto-title-meta-heading">Other Formats</div><div class="quarto-title-meta-contents"><p><a href="index.docx"><i class="bi bi-file-word"></i>MS Word</a></p></div></div></div>
+      </div>
     </div>
 
 
@@ -122,18 +252,13 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#diversity-experiences" id="toc-diversity-experiences" class="nav-link" data-scroll-target="#diversity-experiences"><span class="header-section-number">4</span> Diversity Experiences</a></li>
   <li><a href="#teaching-and-mentoring-experiences" id="toc-teaching-and-mentoring-experiences" class="nav-link" data-scroll-target="#teaching-and-mentoring-experiences"><span class="header-section-number">5</span> Teaching and Mentoring Experiences</a></li>
   </ul>
-<div class="quarto-alternate-notebooks"><h2>Notebooks</h2><ul><li><a href="index-preview.html"><i class="bi bi-journal-code"></i>Article Notebook</a></li></ul></div></nav>
+</nav>
 </div>
 <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
 </div>
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">      
 
-
-
-  
-
-
-<section id="background" class="level2" data-number="1">
+       <section id="background" class="level2" data-number="1">
 <h2 data-number="1" class="anchored" data-anchor-id="background"><span class="header-section-number">1</span> Background</h2>
 <section id="personal-statement" class="level3" data-number="1.1">
 <h3 data-number="1.1" class="anchored" data-anchor-id="personal-statement"><span class="header-section-number">1.1</span> Personal Statement</h3>
@@ -310,7 +435,34 @@ Poster available <a href="https://github.com/higgins5/Portfolio/blob/main/docume
 <p><strong>placeholder draft text</strong><br>
 Description: Description: As a Research Assistant for an ongoing NIH-funded R01 study, I have over four semesters of experience administering cognitive assessments, including the Repeatable Battery for the Assessment of Neuropsychological Status (RBANS), the Mnemonic Similarity Task (MST), the Minnesota Card Sorting Test (MCST), and the Corsi block-tapping test. In this experience, I have gained a practical understanding of the nuance and care essential to effective, ethical participant interaction and data collection, particularly with vulnerable populations such as those with chronic inflammatory diseases like asthma. This set of cognitive tests is important for assessing cognitive function, particularly in aging or otherwise compromised populations. and I am certified in Mental Health First Aid, equipping me to compassionately and effectively support individuals experiencing psychological distress or crisis. I intend to continue running participants and administering these cognitive tests for the foreseeable future.<br>
 </p>
-<div class="cell">
+<div class="cell-container"><div class="cell-decorator"><pre>In [1]:</pre></div><div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>practicum <span class="ot">&lt;-</span> tibble<span class="sc">::</span><span class="fu">tibble</span>(<span class="at">Participant =</span> <span class="fu">c</span>(<span class="st">"MI 3001"</span>, <span class="st">"MI 4011"</span>, <span class="st">"MI 4013"</span>, </span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>                               <span class="st">"MI 4015"</span>, <span class="st">"MI 4005"</span>, <span class="st">"MI 4017"</span>, </span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>                               <span class="st">"MI 4016"</span>, <span class="st">"MI 3003"</span>, <span class="st">"MI 4019"</span>, </span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>                               <span class="st">"MI 3006"</span>, <span class="st">"MI 4021"</span>, <span class="st">"MI 4023"</span>, </span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>                               <span class="st">"MI 3013"</span>, <span class="st">"MI 3015"</span>, <span class="st">"MI 4025"</span>,</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>                               <span class="st">"MI 4028"</span>, <span class="st">"MI 4031"</span>),</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>               <span class="at">Date =</span> <span class="fu">c</span>(<span class="st">"6/14/24"</span>, <span class="st">"7/2/24"</span>, <span class="st">"7/18/24"</span>, <span class="st">"9/5/24"</span>, </span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>                        <span class="st">"9/10/24"</span>, <span class="st">"10/17/24"</span>, <span class="st">"10/24/24"</span>, <span class="st">"10/31/24"</span>, </span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>                        <span class="st">"11/21/24"</span>, <span class="st">"11/26/24"</span>, <span class="st">"12/12/24"</span>, <span class="st">"2/4/25"</span>, </span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>                        <span class="st">"3/7/25"</span>, <span class="st">"3/7/25"</span>, <span class="st">"3/25/25"</span>, <span class="st">"4/8/25"</span>, <span class="st">"5/20/25"</span>),</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>               <span class="at">Semester =</span> <span class="fu">c</span>(<span class="st">"S24"</span>, <span class="st">"S24"</span>, <span class="st">"S24"</span>, </span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>                            <span class="st">"F24"</span>, <span class="st">"F24"</span>, <span class="st">"F24"</span>, <span class="st">"F24"</span>, <span class="st">"F24"</span>, <span class="st">"F24"</span>, <span class="st">"F24"</span>, <span class="st">"F24"</span>,</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>                            <span class="st">"Sp25"</span>, <span class="st">"Sp25"</span>, <span class="st">"Sp25"</span>, <span class="st">"Sp25"</span>, <span class="st">"Sp25"</span>, <span class="st">"Sp25"</span>),</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>               <span class="st">`</span><span class="at">Assessment(s)</span><span class="st">`</span> <span class="ot">=</span> <span class="fu">rep</span>(<span class="st">"RBANS, MST, Corsi, MCST"</span>,<span class="dv">17</span>),</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>               <span class="st">`</span><span class="at">Duration (hours)</span><span class="st">`</span> <span class="ot">=</span> <span class="fu">c</span>(<span class="fl">0.75</span>, <span class="fl">0.75</span>, <span class="fl">0.75</span>, <span class="fl">0.75</span>, <span class="fl">0.75</span>, </span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>                                    <span class="fl">0.75</span>, <span class="fl">0.75</span>, <span class="fl">0.75</span>, <span class="fl">0.75</span>, <span class="fl">0.75</span>, </span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>                                    <span class="fl">0.75</span>, <span class="fl">0.75</span>, <span class="fl">0.75</span>, <span class="fl">0.5</span>, <span class="fl">0.75</span>, </span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>                                    <span class="fl">0.75</span>, <span class="fl">0.75</span>)) </span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>dplyr<span class="sc">::</span><span class="fu">bind_rows</span>(practicum,</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>          (practicum <span class="sc">|&gt;</span> dplyr<span class="sc">::</span><span class="fu">summarise</span>(</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>            <span class="at">Participant =</span> <span class="st">"Total"</span>,</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>            <span class="at">Date =</span> <span class="st">""</span>,</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>            <span class="at">Semester =</span> <span class="st">""</span>,</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>            <span class="st">`</span><span class="at">Assessment(s)</span><span class="st">`</span> <span class="ot">=</span> <span class="st">""</span>,</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>            <span class="st">`</span><span class="at">Duration (hours)</span><span class="st">`</span> <span class="ot">=</span> <span class="fu">sum</span>(<span class="st">`</span><span class="at">Duration (hours)</span><span class="st">`</span>)))) <span class="sc">|&gt;</span> </span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>  knitr<span class="sc">::</span><span class="fu">kable</span>(<span class="at">digits =</span> <span class="dv">2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <table class="caption-top table table-sm table-striped small">
 <colgroup>
@@ -459,7 +611,7 @@ Description: Description: As a Research Assistant for an ongoing NIH-funded R01 
 </tbody>
 </table>
 </div>
-<a class="quarto-notebook-link" id="nblink-1" href="index-preview.html">Source: Article Notebook</a></div>
+</div></div>
 </section>
 </section>
 <section id="diversity-experiences" class="level2" data-number="4">
@@ -479,10 +631,8 @@ The role of a scientist extends beyond research to include providing mentorship 
 <p>These mentorship experiences have not only been enriching learning opportunities for me to strengthen my technical and interpersonal skills, but they have also reaffirmed the importance of helping students identify and cultivate their potential—evidenced in their outstanding achievements in diverse areas/directions. It is vital to me that the scope of my mentorship is holistic, encompassing not just statistical and research advising, but also career, professional, and personal guidance, as appropriate. Overall, I am passionate about leveraging accessible and rigorous data science as a tool for increasing engagement with science, promoting equity in scientific training, and fostering broad-reaching scientific literacy. I am eager to continue this work as an integral part of my academic and professional path.<br>
 </p>
 </section>
-
-</main>
-<!-- /main column -->
-<script id="quarto-html-after-body" type="application/javascript">
+     </main>
+<!-- /main column -->  <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
     const anchorJS = new window.AnchorJS();
@@ -880,10 +1030,6 @@ The role of a scientist extends beyond research to include providing mentorship 
       }
     }
   });
-  </script>
-</div> <!-- /content -->
-
-
-
-
+  </script>  </div> <!-- /content --> 
+  
 </body></html>
