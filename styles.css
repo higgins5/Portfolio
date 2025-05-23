@@ -1,0 +1,15 @@
+a {
+  color: #167cdf; 
+}
+
+a:hover {
+  color: #0e5294; /* Optional: color on hover */
+}
+
+
+
+/* Floating TOC links */
+
+.sidebar .nav-link:hover {
+  color: #167cdf !important;
+}
