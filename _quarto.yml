@@ -15,7 +15,7 @@ format:
     title-block-banner: "#f4f4f4"
     toc: true 
     number-sections: true 
-    toc-location: left
+    number-depth: 3
   docx: 
     reference-doc: reference.docx 
     toc: TRUE
