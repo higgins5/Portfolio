@@ -7,6 +7,9 @@ manuscript:
 
 format:
   html: 
+    toc: true 
+    number-sections: true 
+    number-depth: 3
     theme: litera
     mainfont: serif
     fontsize: 1em
