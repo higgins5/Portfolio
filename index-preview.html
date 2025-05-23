@@ -1,0 +1,1168 @@
+<!DOCTYPE html>
+<html
+  xmlns="http://www.w3.org/1999/xhtml"
+  lang="en"
+  xml:lang="en"
+  >
+  <head>
+    <meta charset="utf-8" />
+    <meta name="generator" content="quarto-1.7.22" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+
+    <meta name="author" content="Estelle Higgins, M.S." />
+    <meta name="dcterms.date" content="2025-05-23" />
+
+    <title>Clinical Psychology Portfolio</title>
+    <style>
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      div.columns{display: flex; gap: min(4vw, 1.5em);}
+      div.column{flex: auto; overflow-x: auto;}
+      div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+      ul.task-list{list-style: none;}
+      ul.task-list li input[type="checkbox"] {
+        width: 0.8em;
+        margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+        vertical-align: middle;
+      }
+      /* CSS for syntax highlighting */
+      html { -webkit-text-size-adjust: 100%; }
+      pre > code.sourceCode { white-space: pre; position: relative; }
+      pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+      pre > code.sourceCode > span:empty { height: 1.2em; }
+      .sourceCode { overflow: visible; }
+      code.sourceCode > span { color: inherit; text-decoration: inherit; }
+      div.sourceCode { margin: 1em 0; }
+      pre.sourceCode { margin: 0; }
+      @media screen {
+      div.sourceCode { overflow: auto; }
+      }
+      @media print {
+      pre > code.sourceCode { white-space: pre-wrap; }
+      pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+      }
+      pre.numberSource code
+        { counter-reset: source-line 0; }
+      pre.numberSource code > span
+        { position: relative; left: -4em; counter-increment: source-line; }
+      pre.numberSource code > span > a:first-child::before
+        { content: counter(source-line);
+          position: relative; left: -1em; text-align: right; vertical-align: baseline;
+          border: none; display: inline-block;
+          -webkit-touch-callout: none; -webkit-user-select: none;
+          -khtml-user-select: none; -moz-user-select: none;
+          -ms-user-select: none; user-select: none;
+          padding: 0 4px; width: 4em;
+        }
+      pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+      div.sourceCode
+        {   }
+      @media screen {
+      pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+      }
+    </style>
+
+    <style>
+      body.hypothesis-enabled #quarto-embed-header {
+        padding-right: 36px;
+      }
+
+      #quarto-embed-header {
+        height: 3em;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: solid 1px;
+      }
+
+      #quarto-embed-header h6 {
+        font-size: 1.1em;
+        padding-top: 0.6em;
+        margin-left: 1em;
+        margin-right: 1em;
+        font-weight: 400;
+      }
+
+      #quarto-embed-header a.quarto-back-link,
+      #quarto-embed-header a.quarto-download-embed {
+        font-size: 0.8em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 1em;
+        margin-right: 1em;
+      }
+
+      .quarto-back-container {
+        padding-left: 0.5em;
+        display: flex;
+      }
+
+      .headroom {
+          will-change: transform;
+          transition: transform 200ms linear;
+      }
+
+      .headroom--pinned {
+          transform: translateY(0%);
+      }
+
+      .headroom--unpinned {
+          transform: translateY(-100%);
+      }      
+    </style>
+
+    <script>
+    window.document.addEventListener("DOMContentLoaded", function () {
+
+      var header = window.document.querySelector("#quarto-embed-header");
+      const titleBannerEl = window.document.querySelector("body > #title-block-header");
+      if (titleBannerEl) {
+        titleBannerEl.style.paddingTop = header.clientHeight + "px";
+      }
+      const contentEl = window.document.getElementById('quarto-content');
+      for (const child of contentEl.children) {
+        child.style.paddingTop = header.clientHeight + "px";
+        child.style.marginTop = "1em";
+      }
+
+      // Use the article root if the `back` call doesn't work. This isn't perfect
+      // but should typically work
+      window.quartoBackToArticle = () => {
+        var currentUrl = window.location.href;
+        window.history.back();
+        setTimeout(() => {
+            // if location was not changed in 100 ms, then there is no history back
+            if(currentUrl === window.location.href){              
+                // redirect to site root
+                window.location.href = "index.html";
+            }
+        }, 100);
+      }
+
+      const headroom = new window.Headroom(header, {
+        tolerance: 5,
+        onPin: function () {
+        },
+        onUnpin: function () {
+        },
+      });
+      headroom.init();
+    });
+    </script>
+
+    <!-- htmldependencies:E3FAD763 -->
+     <style>
+
+      .quarto-title-block .quarto-title-banner {
+        background: #f4f4f4;
+      }
+</style>  
+        <link rel="stylesheet" href="styles.css" />
+      </head>
+
+  <body>
+    <div id="quarto-embed-header" class="headroom fixed-top bg-primary">
+      
+      <a onclick="window.quartoBackToArticle(); return false;" class="btn btn-primary quarto-back-link"><i class="bi bi-caret-left"></i> Back to Article</a>
+      <h6><i class="bi bi-journal-code"></i> Article Notebook</h6>
+
+            <a
+        href="index.qmd"
+        class="btn btn-primary quarto-download-embed"
+        data-noresolveinput="true"
+        download="index.qmd"
+        >Download Source</a
+      >
+          </div>
+
+     <div id="quarto-content" class="page-columns page-rows-contents page-layout-article toc-left">
+<div id="quarto-sidebar-toc-left" class="sidebar toc-left">
+  <div id="quarto-toc-target"></div>
+</div>
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+</div>
+<main class="content" id="quarto-document-content">      <header id="title-block-header" class="quarto-title-block default toc-left">
+  <div class="quarto-title-banner">
+    <div class="quarto-title column-body">
+      <h1 class="title">Clinical Psychology Portfolio</h1>
+          </div>
+
+    
+    <div class="quarto-title-meta-container">
+      <div class="quarto-title-meta-column-start">
+            <div class="quarto-title-meta-author">
+          <div class="quarto-title-meta-heading">Author</div>
+          <div class="quarto-title-meta-heading">Affiliation</div>
+          
+                <div class="quarto-title-meta-contents">
+            <p class="author">Estelle Higgins, M.S. </p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        Department of Psychology, University of Wisconsin-Madison
+                      </p>
+                  </div>
+                    </div>
+        
+        <div class="quarto-title-meta">
+
+                      
+                <div>
+            <div class="quarto-title-meta-heading">Published</div>
+            <div class="quarto-title-meta-contents">
+              <p class="date">May 23, 2025</p>
+            </div>
+          </div>
+          
+                
+              </div>
+      </div>
+      <div class="quarto-title-meta-column-end quarto-other-formats-target">
+      </div>
+    </div>
+
+
+
+    <div class="quarto-other-links-text-target">
+    </div>  </div>
+</header>
+
+     <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#background" id="toc-background"><span class="header-section-number">1</span> Background</a>
+  <ul>
+  <li><a href="#personal-statement" id="toc-personal-statement"><span class="header-section-number">1.1</span> Personal Statement</a></li>
+  <li><a href="#curriculum-vitae" id="toc-curriculum-vitae"><span class="header-section-number">1.2</span> Curriculum Vitae</a></li>
+  <li><a href="#transcript" id="toc-transcript"><span class="header-section-number">1.3</span> Transcript</a></li>
+  </ul></li>
+  <li><a href="#research-experiences" id="toc-research-experiences"><span class="header-section-number">2</span> Research Experiences</a>
+  <ul>
+  <li><a href="#research-statement" id="toc-research-statement"><span class="header-section-number">2.1</span> Research Statement</a></li>
+  <li><a href="#first-author-publications" id="toc-first-author-publications"><span class="header-section-number">2.2</span> First-Author Publications</a></li>
+  <li><a href="#coauthor-publications" id="toc-coauthor-publications"><span class="header-section-number">2.3</span> Coauthor Publications</a></li>
+  <li><a href="#additional-research-products" id="toc-additional-research-products"><span class="header-section-number">2.4</span> Additional Research Products</a></li>
+  <li><a href="#presentations" id="toc-presentations"><span class="header-section-number">2.5</span> Presentations</a></li>
+  <li><a href="#workshops-and-trainings-attended" id="toc-workshops-and-trainings-attended"><span class="header-section-number">2.6</span> Workshops and Trainings Attended</a></li>
+  <li><a href="#posters" id="toc-posters"><span class="header-section-number">2.7</span> Posters</a></li>
+  </ul></li>
+  <li><a href="#clinical-experiences" id="toc-clinical-experiences"><span class="header-section-number">3</span> Clinical Experiences</a>
+  <ul>
+  <li><a href="#practicum" id="toc-practicum"><span class="header-section-number">3.1</span> Practicum</a></li>
+  </ul></li>
+  <li><a href="#diversity-experiences" id="toc-diversity-experiences"><span class="header-section-number">4</span> Diversity Experiences</a>
+  <ul>
+  <li><a href="#diversity-statement" id="toc-diversity-statement"><span class="header-section-number">4.1</span> Diversity Statement</a></li>
+  </ul></li>
+  <li><a href="#teaching-and-mentoring-experiences" id="toc-teaching-and-mentoring-experiences"><span class="header-section-number">5</span> Teaching and Mentoring Experiences</a></li>
+  </ul>
+</nav>  <section id="background" class="level2" data-number="1">
+<h2 data-number="1"><span class="header-section-number">1</span> Background</h2>
+<section id="personal-statement" class="level3" data-number="1.1">
+<h3 data-number="1.1"><span class="header-section-number">1.1</span> Personal Statement</h3>
+<p>When I was an undergraduate, reading <em>Why Zebras Don’t Get Ulcers: A Guide to Stress, Stress-Related Diseases, and Coping</em> shifted my understanding of how humans experience and adapt to the world. It opened my mind to stress as a dynamic, embodied process that links the brain with the rest of the body through bidirectional feedback loops. Psychological processes shape physiological processes, and physiology in turn shapes psychological processes. Learning that the immune system is part of the stress response, and that immune function is tied to mental and physical wellbeing, drew me in further. Since chronic stress and immune dysregulation are transdiagnostic risk factors for several illnesses, I wondered: could these be pivotal targets for interventions that promote emotional and physical resilience across diagnostic boundaries?<br />
+</p>
+<p>This initial curiosity motivated me to delve deeper into <em>how</em> psychosocial factors become biologically embedded to shape health and disease. Joining Dr. Melissa Rosenkranz’s lab, I discovered a research path grounded in psychoneuroimmunology (PNI), which offers an interdisciplinary lens for exploring the dynamics of mind-brain-body interactions and their long-term impacts. The translational potential of PNI research— to reduce distress-related suffering and guide targeted interventions—continues to drive my work. As a clinical scientist/researcher, I am committed to using PNI as a framework to understand the mechanisms linking psychosocial stress, immune function, and health outcomes.<br />
+</p>
+<p>As a PhD student in the Clinical Research Specialization track, I have woven together coursework in immunology, neuroscience, and clinical psychology to tailor a curriculum aligned with my interests and goals. My overarching goal is to inform scientific research hypotheses using knowledge gained in clinical settings, and likewise use scientific research conclusions to inform clinical practices to support holistic wellbeing. To this end, my research uses asthma as a model system to study the biological pathways linking chronic inflammation, psychological stress, mental health, and the brain. Asthma is more than just a valuable model; it offers a unique chance for clinically impactful research bridging biology, clinical psychology, and neuroscience. This work has the potential to expand the focus of treatment approaches beyond symptom management, toward mechanism-informed strategies.<br />
+</p>
+<p>Looking ahead, I intend to advance a research program aimed at clarifying the mechanistic pathways connecting psychological stress and inflammation to long-term mental and physical wellbeing, in asthma and other chronic conditions. I aspire to pursue a career grounded in data science within an academic medical center, leading patient-centered studies that directly inform clinical care and health outcomes. To support this, I have also cultivated skills to flexibly apply advanced data analytic tools while pursuing a certificate in Leadership in Behavioral Data Science. With this foundation, I hope to leverage high-dimensional, multi-modal data to build predictive models that support scalable and personalized approaches to care.<br />
+</p>
+<p>My training reflects my commitment to interdisciplinary, clinically meaningful research. Through coursework, mentoring, collaborations, and ongoing scientific contributions, I am laying the groundwork for a future dedicated to improving holistic health outcomes through the rigorous study of mind-body interactions.<br />
+</p>
+</section>
+<section id="curriculum-vitae" class="level3" data-number="1.2">
+<h3 data-number="1.2"><span class="header-section-number">1.2</span> Curriculum Vitae</h3>
+<ul>
+<li><a href="https://github.com/higgins5/Portfolio/blob/main/documents/EstelleHiggins_CV_062025.pdf">Current CV</a><br />
+</li>
+</ul>
+</section>
+<section id="transcript" class="level3" data-number="1.3">
+<h3 data-number="1.3"><span class="header-section-number">1.3</span> Transcript</h3>
+<ul>
+<li><a href="https://github.com/higgins5/Portfolio/blob/main/documents/Higgins_UWTranscript.pdf">Unofficial Transcript</a><br />
+</li>
+</ul>
+</section>
+</section>
+<section id="research-experiences" class="level2" data-number="2">
+<h2 data-number="2"><span class="header-section-number">2</span> Research Experiences</h2>
+<section id="research-statement" class="level3" data-number="2.1">
+<h3 data-number="2.1"><span class="header-section-number">2.1</span> Research Statement</h3>
+<p>The impacts of stress on the mind and body are shaped by individual differences in biology, cognitive-emotional styles, and lived experience. Although short-term stress responses are adaptive, excessive or repeated stress can exacerbate the physical and psychological wear-and-tear contributing to many health conditions. The immune system is one key pathway linking chronic stress to long-term health risks. Yet, limited understandings of the neural circuits underlying this link hinder our ability to address the compounding effects of stress and immune dysregulation.<br />
+</p>
+<p>My research aims to clarify neural, emotional, and immunological mechanisms contributing to individual vulnerability and resilience to ill-being. I use neuroimaging, immune, endocrine, and self-report methods to study chronic and acute stress, immune function, and mindfulness-based interventions in healthy and chronically inflamed populations. By identifying these pathways, I strive to translate mechanistic insights about stress and immune dysregulation into biologically grounded, psychologically meaningful mind-body practices that can reduce distress-related suffering and support holistic wellbeing.<br />
+</p>
+<p>The flexibility of the Clinical Psychology Research Specialization PhD program and co-mentorship from Dr. Melissa Rosenkranz and Dr. Richard Davidson enable me to pursue this research within a psychoneuroimmunology (PNI) framework. My passion for PNI was sparked during a fellowship-funded internship with Dr. Rosenkranz in 2019, culminating in my undergraduate honors thesis and the first randomized controlled trial (RCT) demonstrating mindfulness-related improvements in airway inflammation, distress, and disease control in asthma (<a href="https://github.com/higgins5/Portfolio/blob/main/documents/manuscripts/Higgins_etal2022_BBI-H.pdf">Higgins et al., 2022</a>). This experience launched a line of inquiry I have carried through my training.<br />
+</p>
+<p>As a post-baccalaureate intern in Dr. Rosenkranz’s lab, I refined my research focus while developing proficiency in R programming, statistics, and neuroimaging data analysis. Motivated by the gap in understanding neural mechanisms linking mind-body interventions to immune function, I analyzed fMRI data from our mindfulness-based stress reduction RCT. Mindfulness training altered neural reactivity in emotion-related circuits, correlated with reduced distress and asthma-related inflammation (first-author manuscript in prep). I presented these findings to physicians and researchers in a featured poster at the 2022 American Academy of Allergy, Asthma, &amp; Immunology meeting, highlighting the brain’s role in asthma and the potential for mind-body interventions. Building on this, my graduate First-Year Project used data combining a stress challenge with an immune manipulation to identify molecular brain-to-lung signaling pathways. The resulting first-author publication, showing that neural stress reactivity predicted increased airway inflammation, underscores the need to consider stress- and emotion-related processes in asthma. This work was internationally recognized in an oral presentation at the 2024 PNI Research Society meeting.<br />
+</p>
+<p>Exploring how stress-response pathways connect the brain and inflammation may help clarify mechanisms underlying individual differences in disease risk. Recently, I showed that higher inflammation and chronic stress were associated with blunted cortisol, but not Sympathetic Nervous System, responses to acute stress in healthy adults. These findings, presented in a featured citation poster at the 2025 Society for Biopsychosocial Science &amp; Medicine meeting, suggest that chronic stress and inflammation may selectively impact hormonal stress-response systems.<br />
+</p>
+<p>Ultimately, I aim to apply this interdisciplinary research to refine holistic interventions for stress and chronic inflammation. Toward this goal, I engaged in an invited workshop that deepened my understanding of mechanisms and applications of mind-body practices, as a travel fellowship awardee at the 2023 Mindfulness Mechanisms &amp; Methods Meeting. I have continued by guiding Data Science in Human Behavior master’s students in analyzing data from the Healthy Minds app, a smartphone-based mindfulness intervention. Building on this, I plan to examine asthma-related symptom changes following a 6-week Healthy Minds app intervention.<br />
+</p>
+<p>By integrating neuroscience, immunology, and clinical psychology, my research helps clarify how stress, emotion, and immune activity interact to shape health, while advancing rigorous and actionable PNI science to inform the design of targeted interventions to support wellbeing.<br />
+</p>
+</section>
+<section id="first-author-publications" class="level3" data-number="2.2">
+<h3 data-number="2.2"><span class="header-section-number">2.2</span> First-Author Publications</h3>
+<ol type="1">
+<li><p><strong>Higgins, E. T.</strong>, Busse, W. W., Esnault, S., Christian, B. T., Klaus, D. R., Bach, J. C., Frye, C. J., Rosenkranz, M. A. (2025). Fueling the fire in the lung-brain axis: the salience network connects allergen-provoked TH17 responses to psychological stress in asthma. <em>Brain, Behavior, &amp; Immunity, 128,</em> 276-288. https://doi.org/10.1016/j.bbi.2025.04.004<br />
+</p>
+<p><strong>Abstract</strong>: Asthma, a highly prevalent chronic inflammatory disease of the airways, results in an average of 10 deaths per day in the U.S., and psychological stress hinders its effective management. Threat-sensitive neurocircuitry, active during psychological stress, may intensify airway inflammatory responses and contribute to poor clinical outcomes. However, the neural mechanisms and descending pathways connecting acute stress and inflammatory responses to allergen exposure remain poorly understood. We hypothesized that stress-induced engagement of the salience network would prime Th17 immune pathways and potentiate airway inflammation. We measured brain glucose metabolism during the Trier Social Stress Test (TSST) and a non-stressful control task using [18F]fluorodeoxyglucose positron emission tomography (PET) in 28 adults (18F) with asthma. Salivary cortisol was collected to quantify physiological stress responses. Before and after airway provocation with a whole-lung allergen challenge (WL-AG), airway inflammation was assessed using fraction of exhaled nitric oxide (FeNO), sputum % eosinophils, and expression of Th17-related cytokine mRNA in the airway. As expected, the WL-AG increased all inflammatory biomarkers. Acute stress significantly increased salivary cortisol (t(27.3) = -27.3, p &lt; 0.01), but did not significantly affect airway inflammation overall. Instead, more robust cortisol responses to stress predicted increased glucose metabolism in the amygdala, insula, and dorsal anterior cingulate cortex, key nodes in the salience network, as well as increased IL-23A mRNA expression (t(22.1) = 2.38, p = 0.026) and FeNO (t(21.5) = 2.17, p = 0.041). Moreover, differential increases in amygdala and dACC glucose metabolism predicted differential increases IL-23A mRNA expression following WL-AG. In addition, compared to low chronic stress, high chronic stress was associated with enhanced IL-17A mRNA expression in response to acute stress and WL-AG. Individual differences in salience network and cortisol responses to acute stress predict enhanced allergen challenge-provoked Th17-related responses, advancing our understanding of the efferent arm of the lung-brain axis in asthma. This work underscores the importance of translational research for the development of novel interventions that target stress-sensitive brain and immune pathways.<br />
+</p></li>
+</ol>
+<ul>
+<li>Relative contributions:
+<ul>
+<li>Conceptualization - 0%<br />
+</li>
+<li>Design - 0%<br />
+</li>
+<li>Analyses - 100%<br />
+</li>
+<li>Writing - 70%<br />
+</li>
+</ul></li>
+<li>Full-text PDF available <a href="https://github.com/higgins5/Portfolio/blob/main/documents/manuscripts/Higgins_etall2025_BBI.pdf">here</a><br />
+</li>
+</ul>
+<ol start="2" type="1">
+<li><p><strong>Higgins, E. T.</strong>, Davidson, R. J., Busse, W. W., Klaus, D. R., Bednarek, G. T., Goldman, R. I., Sachs, J., &amp; Rosenkranz, M. A. (2022). Clinically relevant effects of Mindfulness-Based Stress Reduction in individuals with asthma. <em>Brain, Behavior, &amp; Immunity - Health, 25,</em> 100509. https://doi.org/10.1016/j.bbih.2022.100509<br />
+</p>
+<p><strong>Abstract:</strong> Psychological distress and comorbid psychopathology contribute to exacerbation risk in patients with asthma. Thus, interventions designed to reduce stress and improve emotion regulation, such as Mindfulness-Based Stress Reduction (MBSR), may augment standard care. Few studies have addressed this question and a paucity of data exists to determine the ability of MBSR to impact clinical outcomes in asthma. This randomized controlled trial investigated effects of MBSR training on asthma control and airway inflammation, in relation to psychological symptoms, in adults with asthma. Participants were randomized to an 8-week MBSR training (n = 35) or wait-list control group (n = 34). Clinically relevant asthma assessments, including Asthma Control Questionnaire and inflammatory biomarkers, were collected at baseline and six approximately-monthly follow-ups. Self-reported mindfulness, distress, depression, and anxiety symptoms were assessed at baseline, post-intervention, and study completion. Chronic stress level was determined at baseline only. Asthma control improved significantly in individuals randomized to MBSR, relative to wait-list controls (p = .01; effect size d = 0.76), which was maintained at 4mo post-intervention. 32% of MBSR participants achieved a clinically significant improvement, based on the ACQ6 Minimally Important Difference, relative to 12% of wait-list participants. Moreover, MBSR-related improvement in asthma control was associated with a reduction in distress (p = .043) and the intervention was most efficacious for those with the highest baseline depressive symptoms (p = .023). Importantly, MBSR also reduced levels of exhaled nitric oxide, a biomarker of airway inflammation, relative to wait-list controls (p &lt; .05). Supporting and extending extant evidence of mind-body relationships in asthma and the benefits of stress reduction for these patients, this is, to the best of our knowledge, the first RCT to demonstrate that training in MBSR improves clinically relevant asthma outcomes. MBSR may thus be a valuable addition to optimal asthma management, particularly for those with comorbid psychopathology.<br />
+</p></li>
+</ol>
+<ul>
+<li>Relative contributions:
+<ul>
+<li>Conceptualization - 0%<br />
+</li>
+<li>Design - 0%<br />
+</li>
+<li>Analyses - 100%<br />
+</li>
+<li>Writing - 60%<br />
+</li>
+</ul></li>
+<li>Full-text PDF available <a href="https://github.com/higgins5/Portfolio/blob/main/documents/manuscripts/Higgins_etal2022_BBI-H.pdf">here</a><br />
+</li>
+</ul>
+</section>
+<section id="coauthor-publications" class="level3" data-number="2.3">
+<h3 data-number="2.3"><span class="header-section-number">2.3</span> Coauthor Publications</h3>
+<ol type="1">
+<li><p>Abercrombie, H., Barnes, A., Nord, E., Finley, A., <strong>Higgins, E.T.</strong>, Grupe, D., Rosenkranz, M. A., Davidson, R. J., Schaefer, S. M. (2023). Inverse association between stress induced cortisol elevations and negative emotional reactivity to stress in humans. <em>Stress, 26</em>(1), 2174780. https://doi.org/10.1080/10253890.2023.2174780<br />
+</p>
+<p><strong>Abstract:</strong> Greater cortisol reactivity to stress is often assumed to lead to heightened negative affective reactivity to stress. Conversely, a growing body of evidence demonstrates mood-protective effects of cortisol elevations in the context of acute stress. We administered a laboratory-based stressor, the Trier Social Stress Test (TSST), and measured cortisol and emotional reactivity in 68 adults (48 women) between the ages of 25 and 65. In accordance with our pre-registered hypothesis (https://osf.io/t8r3w) and prior research, negative affective reactivity was inversely related to cortisol reactivity assessed immediately after the stressor. We found that greater cortisol response to acute stress is associated with smaller increases in negative affect, consistent with mood-protective effects of cortisol elevations in response to acute stress.<br />
+</p></li>
+</ol>
+<ul>
+<li>Relative contributions:
+<ul>
+<li>Conceptualization - 0%<br />
+</li>
+<li>Design - 0%<br />
+</li>
+<li>Analyses - 15%<br />
+</li>
+<li>Writing - 5%<br />
+</li>
+</ul></li>
+<li>Full-text PDF available <a href="https://github.com/higgins5/Portfolio/blob/main/documents/manuscripts/Abercrombie_etal2024-Stress.pdf">here</a><br />
+</li>
+</ul>
+</section>
+<section id="additional-research-products" class="level3" data-number="2.4">
+<h3 data-number="2.4"><span class="header-section-number">2.4</span> Additional Research Products</h3>
+<ol type="1">
+<li><p><strong>Higgins, E. T.</strong>, Busse, W. W., Klaus, D., Grupe, D. W., Davidson, R. J., &amp; Rosenkranz, M. A. (<em>in final stages of preparation</em>). Mindfulness-Based Stress Reduction alters neural responses associated with asthma outcomes.<br />
+</p>
+<p><strong>Abstract</strong>: Psychological distress negatively impacts asthma control, airway inflammation, and treatment efficacy, suggesting crosstalk between the brain and disease symptoms in asthma. Mindfulness-Based Stress Reduction (MBSR), which promotes non-judgmental attention to internal and external cues, can benefit psychological and physical symptoms in chronic inflammatory diseases, including increasing asthma control. Understanding the neural mechanisms underlying these benefits in asthma could help identify phenotypes and personalize interventions for asthma. Adults with asthma were randomized to an 8-week MBSR training (n = 35) or wait-list control group (n = 34). Clinically relevant asthma-related and psychological outcomes were collected, and task-based functional magnetic resonance scans were acquired during the presentation of emotionally-salient cues at baseline, post-intervention, and 6mo follow-up. Mindfulness training decreased lateral prefrontal/orbitofrontal cortex responses to emotionally-salient cues relative to wait-list controls, which was associated with increased self-reported mindfulness. Additionally, reductions in psychological distress and inflammation were associated with decreased neural reactivity in the insula/frontal-opercular cortex (IFOC), dorsal anterior cingulate cortex, and amygdala for all participants immediately post-intervention. At 6-month follow-up, though some relationships persisted, MBSR-related improvements in asthma control, severity, and overall distress were associated with increased neural reactivity in medial prefrontal and IFOC regions. In the first study to investigate MBSR’s effects on neural responses to aversive cues and disease outcomes in adults with asthma, decreased neural reactivity associated with increased mindfulness suggests a reduced need for effortful cognitive-affective regulation immediately post-intervention. For all participants, reduced neural reactivity was associated with reduced distress and inflammation, supporting the hypothesis that cognitive-affective processing is integrated with peripheral inflammation in asthma. At the 6mo follow-up, additional associations between improved symptoms and increased neural reactivity point to increased effortful regulation. Overall, MBSR alters the reactivity and regulation of neural responses to emotionally-salient cues, which predicts symptom improvements. Results here shed light on neural mechanisms that may underlie clinical benefits of MBSR for asthma, and highlight the importance of addressing mind-body relationships in asthma management.<br />
+</p></li>
+<li><p>Haeffner, C. E.*, <strong>Higgins, E. T.</strong>*, Laubacher, C. M., Gresham, L. K., Barnes, A. L., Skinner, S. E., Nord, E., Abercrombie, H. C., Rosenkranz, M. A., Davidson, R. J., Slavich, G. M., Schaefer, S. M. (<em>in final stages of preparation</em>). Associations among lifetime stressor severity, cortisol responses to acute stress, and amygdala and hippocampal volumes.<br />
+*<em>Co-first-authors</em><br />
+</p>
+<p><strong>Abstract</strong>: Severe stress is linked to structural changes in the amygdala and hippocampus, limbic regions with roles in regulating hypothalamic-pituitary-adrenal (HPA) responses to acute stress. Yet, how these amygdalar and hippocampal structural changes may in turn influence subsequent acute biological stress responses remains unclear. 249 individuals (aged 25-65) completed the Stress and Adversity Inventory (STRAIN), underwent structural magnetic resonance imaging (MRI), and provided salivary cortisol samples during their reactivity to and recovery from a psychosocial stress paradigm, the Trier Social Stress Test (TSST). Linear regression and piecewise mixed-effects models were used to examine relations between lifetime stressor severity, amygdalar and hippocampal volumes, and cortisol response patterns. Lifetime stressor severity from the STRAIN was associated with both smaller amygdala and hippocampal volumes, adjusted for intracranial volume (ICV) and cohort (data collected before vs. after Covid-19 pandemic shutdowns), but only associations with the hippocampus remained at trend when age, sex at birth, and race were included in the model. Flatter cortisol reactivity and recovery patterns and lower peak cortisol were associated with smaller amygdala and hippocampal volumes and greater lifetime stressor severity. These results confirm the expected intersections between stress exposure, amygdalar and hippocampal structure, and cortisol response dynamics of acute stress responses such that more severe lifetime stress is associated with smaller amygdalar and hippocampal volumes and flatter cortisol reactivity and recovery patterns to acute laboratory stress.<br />
+</p></li>
+<li><p>National Science Foundation Graduate Research Fellowship Program application (2023)<br />
+</p>
+<ul>
+<li>Research Proposal can be found <a href="https://github.com/higgins5/Portfolio/blob/main/documents/manuscripts/Higgins_NSF2023_Proposal.pdf">here</a>.<br />
+</li>
+<li>Applicant reviews can be found <a href="https://github.com/higgins5/Portfolio/blob/main/documents/manuscripts/Higgins_NSF2023_applicantreviews.pdf">here</a>.<br />
+</li>
+</ul></li>
+</ol>
+</section>
+<section id="presentations" class="level3" data-number="2.5">
+<h3 data-number="2.5"><span class="header-section-number">2.5</span> Presentations</h3>
+<ol type="1">
+<li><p><strong>Higgins, E. T.</strong> (2025, May). <em>Brain-Immune Relationships in Asthma</em>. Capstone presentation presented at the UW-Madison Clinical Psychology departmental weekly lunch and learn proseminar.<br />
+</p>
+<p><strong>Abstract:</strong> In this Capstone presentation, I will provide an overview of some of the projects I have completed in graduate school. After reviewing the biological mechanisms of the stress response, I will discuss my project addressing whether inflammation and lifetime stress are associated with acute stress responses in healthy adults. Addressing some of the limitations from this project, I will then turn to my work in individuals with asthma. First, I will describe findings showing brain-to-lung mechanisms linking chronic and acute stress to asthma-related inflammation. Taking this a step further with an intervention randomized controlled trial, I will present my work delineating psychological, biological, and neural mechanisms of mindfulness benefits in asthma. Finally, I will discuss a potential future project to parse the relative contributions of psychological, neural, and biological risk factors at an individual-level. This work is critical to advancing our understanding of the mechanisms underlying mind-body interactions in asthma and advancing holistic care.<br />
+</p>
+<ul>
+<li>Slides available <a href="https://github.com/higgins5/Portfolio/blob/main/documents/presentations/Higgins_capstone_final.pdf">here</a><br />
+</li>
+</ul></li>
+<li><p><strong>Higgins, E. T.</strong>, Busse, W. W., Esnault, S., Klaus, D. R., Frye, C. J., &amp; Rosenkranz, M. A. (2024, June). <em>Brain and cortisol responses to psychosocial stress are associated with provoked airway inflammation in Th17-related pathways in asthma.</em> Presented at the 2024 Psychoneuroimmunology Research Society Annual Meeting, Halifax, Nova Scotia, Canada.<br />
+</p>
+<p><strong>Abstract:</strong> Individuals with asthma, a widespread chronic inflammatory disease of the airways, suffer increased prevalence and impact of stress, depression, and anxiety. Emotion-related neurocircuitry, activated by psychological stress, may intensify airway inflammatory responses. However, little is known about the neural mechanisms and descending pathways important in the context of acute stress and allergen exposure. In a within-subjects design with 28 adults with asthma, we measured brain glucose metabolism during the Trier Social Stress Test (TSST) and a non-stressful control task using [18F]fluorodeoxyglucose positron emission tomography (PET). Salivary cortisol was collected during the stress/control task and PET scan, to quantify physiological stress responses. Airway inflammation was measured using fraction of exhaled nitric oxide (FeNO), sputum % eosinophils, and expression of mRNA from cytokines produced by Th17 cells, before and 24hr after airway provocation with whole-lung allergen challenge (WL-AG). Acute stress significantly increased salivary cortisol (stats), but did not significantly increase airway inflammation overall. Following stress, salivary cortisol was correlated with IL-23A mRNA expression (t(22.1) = 2.38, p = 0.026) and FeNO (t(21.5) = 2.17, p = 0.041). In the brain, acute psychosocial stress was associated with increased glucose metabolism in the cerebellum and decreased motor cortex activity, relative to the control condition. Salivary cortisol was positively correlated with glucose metabolism in regions including the salience network. Importantly, acute stress-evoked salience network glucose metabolism predicted increased IL-23A mRNA expression following WL-AG. Results advance our understanding of the efferent arm of the lung-brain axis in humans. Although acute stress did not significantly increase airway inflammation in the whole group, results indicate that individual differences in brain and cortisol responses to acute psychosocial stress are associated with provoked airway inflammation in Th17-related pathways. This work motivates the need to tailor asthma interventions to individual variation in pulmonary and extrapulmonary processes in airway diseases.<br />
+</p>
+<ul>
+<li>Slides available <a href="https://github.com/higgins5/Portfolio/blob/main/documents/presentations/Higgins_PNIRS2024_presentation.pdf">here</a><br />
+</li>
+</ul></li>
+<li><p><strong>Higgins, E. T.</strong> (2023, November). <em>Challenging the Brain &amp; Lungs: Impacts of acute stress on the brain, cortisol, and inflammatory responses in asthma</em>. Presented at the 38th Annual First Year Project Symposium Madison, WI.<br />
+</p>
+<p><strong>Abstract:</strong> Individuals with asthma, a common chronic inflammatory disease of the airways, suffer increased prevalence and impact of stress, depression, and anxiety. Emotion-related neurocircuitry, activated by psychological stress, may intensify airway inflammatory responses. However, little is known about the neural mechanisms and descending pathways important in the context of acute stress and allergen exposure. In 28 adults with asthma, we measured brain glucose metabolism during the Trier Social Stress Test (TSST) and a non-stressful control test using [18F]fluorodeoxyglucose positron emission tomography (PET), with a within-subjects design. Salivary cortisol was collected during the stress/control test and PET scan, to quantify physiological stress responses. Airway inflammation was measured using fraction of exhaled nitric oxide (FeNO), sputum % eosinophils, and Th17 mRNA transcript expression before and 24hr after airway provocation with whole-lung allergen challenge (WL-AG). Acute psychosocial stress was associated with increased glucose metabolism in the cerebellum and decreased motor cortex activity, relative to the control condition. Significantly increased cortisol during stress was positively correlated with glucose metabolism in regions including those in the salience network, and correlated with IL-23A mRNA expression (t(22.1) = 2.38, p = .026) and FeNO (t(21.5) = 2.17, p = .041) following stress. Importantly, stress-evoked amygdala and dorsal anterior cingulate cortex activity predicted increased IL-23A mRNA expression following WL-AG. Contrary to hypotheses, however, acute stress did not significantly increase airway inflammation. This project advances the understanding of the efferent arm of the lung-brain axis in humans. Results indicate that individual differences in brain and cortisol responses to acute psychosocial stress are associated with provoked airway inflammation in the Th17 pathway. This work moves us closer to tailoring asthma prevention and treatment to individual differences in both pulmonary and extrapulmonary processes in airway diseases.<br />
+</p>
+<ul>
+<li>Slides available <a href="https://github.com/higgins5/Portfolio/blob/main/documents/presentations/Higgins_FYP_final.pdf">here</a><br />
+</li>
+</ul></li>
+<li><p><strong>Higgins, E. T.</strong>, … (2023, October 30). <em>Challenging the Brain &amp; Lungs: Impacts of acute stress on the brain, cortisol, and inflammatory responses in asthma</em>. Presented at the UW-Madison Clinical Psychology departmental weekly lunch and learn proseminar.<br />
+</p>
+<p><strong>Abstract:</strong> Individuals with asthma, a common chronic inflammatory disease of the airways, suffer increased prevalence and impact of stress, depression, and anxiety. Emotion-related neurocircuitry, activated by psychological stress, may intensify airway inflammatory responses. However, little is known about the neural mechanisms and descending pathways important in the context of acute stress and allergen exposure. In 28 adults with asthma, we measured brain glucose metabolism during the Trier Social Stress Test (TSST) and a non-stressful control test using [18F]fluorodeoxyglucose positron emission tomography (PET), with a within-subjects design. Salivary cortisol was collected during the stress/control test and PET scan, to quantify physiological stress responses. Airway inflammation was measured using fraction of exhaled nitric oxide (FeNO), sputum % eosinophils, and Th17 mRNA transcript expression before and 24hr after airway provocation with whole-lung allergen challenge (WL-AG). Acute psychosocial stress was associated with increased glucose metabolism in the cerebellum and decreased motor cortex activity, relative to the control condition. Significantly increased cortisol during stress was positively correlated with glucose metabolism in regions including those in the salience network, and correlated with IL-23A mRNA expression (t(22.1) = 2.38, p = .026) and FeNO (t(21.5) = 2.17, p = .041) following stress. Importantly, stress-evoked amygdala and dorsal anterior cingulate cortex activity predicted increased IL-23A mRNA expression following WL-AG. Contrary to hypotheses, however, acute stress did not significantly increase airway inflammation. This project advances the understanding of the efferent arm of the lung-brain axis in humans. Results indicate that individual differences in brain and cortisol responses to acute psychosocial stress are associated with provoked airway inflammation in the Th17 pathway. This work moves us closer to tailoring asthma prevention and treatment to individual differences in both pulmonary and extrapulmonary processes in airway diseases.<br />
+</p>
+<ul>
+<li>Slides available <a href="https://github.com/higgins5/Portfolio/blob/main/documents/presentations/Higgins_clinical_prosem_2023.pdf">here</a><br />
+</li>
+</ul></li>
+<li><p><strong>Higgins, E. T.</strong>, Busse, W. W., Esnault, S., Klaus, D. R., &amp; Rosenkranz, M. A. (2023, June). <em>Chronic Stress Moderates Effects of Acute Stress on Allergen-Induced Asthmatic Inflammation.</em> Presented virtually at the 2023 Plasticity of Well-being Summer Workshop, Madison, WI.<br />
+</p>
+<p><strong>Abstract:</strong> Neurocircuitry recruited by psychological stress may magnify asthmatic airway inflammation, but little is known about the neural and molecular mechanisms. During the Trier Social Stress Test (TSST), we measured brain glucose metabolism (FDG-PET) and salivary cortisol. Airway inflammation was measured before and 24hr after airway allergen challenge (AG). Higher chronic stress predicted less increase in sputum eosinophils but greater increase in IL-17 mRNA expression following TSST and AG. Increased cortisol during the TSST correlated with greater salience network activation, which also predicted greater IL-23A and less CCL2 mRNA expression. Overall, chronic stress moderated acute stress’ effects on AG-induced airway inflammation, and TSST-related neural activity predicted IL-17 pathway signaling. Results offer insight into brain-to-lung signaling following acute stress, superimposed on varying levels of chronic stress, which may impact which inflammatory pathways AG exposure engages.<br />
+</p>
+<ul>
+<li>Slides available <a href="https://github.com/higgins5/Portfolio/blob/main/documents/presentations/Higgins_PWB_u24workshop.pdf">here</a><br />
+</li>
+</ul></li>
+<li><p><strong>Higgins, E. T.</strong>, Busse, W. W., Esnault, S., Klaus, D., &amp; Rosenkranz, M. A. (2023, February). <em>Stress neurocircuitry and airway inflammation in asthma.</em> Presented at the Psychoneuroimmunology Research Society Virtual Trainee Event.<br />
+</p>
+<p><strong>Abstract:</strong> Asthma is a highly prevalent airway disease marked by episodic and recurrent respiratory symptoms and increased prevalence and impact of stress, depression, and anxiety. Psychological stress intensifies airway inflammatory responses, likely contributing to individual differences in asthma pathobiology and incomplete symptom management. Given the role of Th17-associated pathways in both airway inflammation and psychological distress, they may link emotion-related neurocircuitry and asthmatic inflammation. However, the neural mechanisms and descending pathways by which psychological stress impacts asthmatic inflammation are largely unknown. To assess the effects of acute stress on neurocircuitry, we measured brain glucose metabolism during the Trier Social Stress Test (TSST) using [F-18]fluorodeoxyglucose positron emission tractography. Salivary cortisol was collected to quantify physiological stress responses. Airway inflammatory measurements were acquired before and 24hr after airway provocation with whole-lung allergen challenge (WL-AG). Salivary cortisol area under the curve (AUC) was significantly greater during the TSST, relative to control condition (t(50) = -2.8, p = .007). Cortisol also showed a quadratic trend over time during the TSST, relative to control condition (t(319) = -4.15, p &lt; .001). Stress-evoked cortisol AUC was positively correlated with glucose metabolism in the bilateral insulae, anterior cingulate cortex (ACC), R amygdala, and cerebellum. Importantly, stress-evoked neural activity in bilateral amygdalae predicted increased expression of IL-23A mRNA in sputum following WL-AG. Results confirm that a greater physiological response to stress is associated with increased neural activity in stress- and emotion-responsive regions. Moreover, correlations between stress-evoked bilateral amygdalae activation and subsequent increased IL-23A mRNA expression following allergen challenge support our hypothesis that stress-related neurocircuitry predicts enhanced inflammatory signaling capacity. These results provide insight into potential brain-to-lung signaling pathways in response to psychosocial stress, which may ultimately suggest novel targets for asthma management.<br />
+</p>
+<ul>
+<li>Slides available <a href="https://github.com/higgins5/Portfolio/blob/main/documents/presentations/Higgins_PNIRStrainee_presentation2023.pdf">here</a><br />
+</li>
+<li>Program available <a href="https://github.com/higgins5/Portfolio/blob/main/documents/workshops/PNIRS_TraineeEventProgram.pdf">here</a><br />
+</li>
+</ul></li>
+<li><p><strong>Higgins, E. T.</strong>, Davidson, R. J., &amp; Rosenkranz, M. A. (2022, September). <em>Brain functional changes associated with mindfulness training in asthma.</em> Presentation at the Autumn School Mini Congress, Castle Rauischholzhausen, Ebsdorfergrund, Germany.<br />
+</p>
+<p><strong>Abstract:</strong> Psychological distress can negatively impact asthma control, airway inflammation, and treatment efficacy. Interventions that target emotion reactivity and regulation, such as Mindfulness-Based Stress Reduction (MBSR), have shown benefit in improving asthma control. Brain networks involved in emotion-processing have been linked to both mindfulness practice and asthma-related immune modulation; however, whether regions within these networks mediate MBSR’s impact on disease-related outcomes is unknown. Adults with asthma were randomized to an 8-week MBSR training (n = 35) or wait-list control group (n = 34). At baseline, post-intervention, and 4months post-intervention, we collected clinically-relevant asthma and psychological outcomes, and functional magnetic resonance imaging in response to emotionally-salient cues. Mindfulness training decreased amygdala and lateral prefrontal cortex responses to emotionally-salient cues relative to wait-list controls, which was correlated with MBSR-related increases in mindfulness. Additionally, increased anterior cingulate cortex response was associated with MBSR-related asthma control improvements and decreased depressive symptoms, but also with decreased mindfulness and increased distress over time. For both groups, reduced insula responses to emotionally-salient cues correlated with decreased distress and inflammation. In asthmatic adults, MBSR training changed neural responses to emotionally-salient cues, which was associated with increased mindfulness and asthma control. This suggests that mindfulness training alters the reactivity and regulation of neural responses to emotionally-salient cues, which predicts symptom improvements. In all participants, decreased neural responses in emotion-relevant regions correlated with reduced distress and inflammation, advancing understandings of the complex neural mechanisms linking emotion and asthma. Overall, our results highlight the importance of targeting mind-body relationships in asthma treatment.<br />
+</p>
+<ul>
+<li>Slides available <a href="https://github.com/higgins5/Portfolio/blob/main/documents/presentations/Higgins_EPN2022_presentation.pdf">here</a><br />
+</li>
+</ul></li>
+</ol>
+</section>
+<section id="workshops-and-trainings-attended" class="level3" data-number="2.6">
+<h3 data-number="2.6"><span class="header-section-number">2.6</span> Workshops and Trainings Attended</h3>
+<ol type="1">
+<li><p>Name: Adult Mental Health First Aid Training<br />
+Organization: National Council for Mental Wellbeing<br />
+Date: March 2025<br />
+Description: Mental Health First Aid is a public educational program for early intervention. This course consisted of 2 hours of online content and 5.5 hours of in-person, instructor-led training focusing on learning to recognize the signs and symptoms of mental health challenges and/or crises. The workshop taught skills of listening non-judgmentally, offering reassurance to someone who may be struggling, and directing individuals to professional support resources.<br />
+</p>
+<ul>
+<li>Modules available <a href="https://github.com/higgins5/Portfolio/blob/main/documents/workshops/MHFA_modules.pdf">here</a><br />
+</li>
+</ul></li>
+<li><p>Name: Mindfulness Mechanisms &amp; Methods Meeting Small-Group Workshop<br />
+Organization: Washington University in St. Louis<br />
+Date: October 2023<br />
+Description: Following the public-facing Mindfulness Mechanisms &amp; Methods Meeting, a selected group of promising trainees, junior investigators, and meeting speakers were invited to a two-day small-group workshop. This workshop included informal, intensive, and extended discussions; break-out groups; and active mindfulness practice. Discussions explored key challenges and future directions in mindfulness science research.<br />
+</p>
+<ul>
+<li>Meeting program available <a href="https://github.com/higgins5/Portfolio/blob/main/documents/workshops/M4_program_booklet_2023.pdf">here</a><br />
+</li>
+</ul></li>
+<li><p>Name: 2023 Functional Magnetic Resonance Imaging of the Brain (FMRIB) Software Library (FSL) Course<br />
+Organization: FMRIB Analysis Group, Oxford University, UK<br />
+Date: September 2023<br />
+Description: This course was a 2-week virtual training that consisted of daily 3-hour tutorials and practicals, in addition to daily 2-hour recorded lectures completed before the tutorial/practical session. The course covered the theory and practice of basic and advanced functional, structural, diffusion, and resting-state neuroimaging analysis. Tutorials and practicals were taught by experts in the field.<br />
+</p>
+<ul>
+<li>Materials available <a href="https://github.com/higgins5/Portfolio/blob/main/documents/workshops/FSL_Course_Material.pdf">here</a><br />
+</li>
+<li>Certificate available <a href="https://github.com/higgins5/Portfolio/blob/main/documents/workshops/FSL_Course_Certificate.pdf">here</a><br />
+</li>
+</ul></li>
+<li><p>Name: The Autumn School: The Lung-Brain Axis in Health &amp; Disease<br />
+Organization: European Psychoneuroimmunology Network, German-Endocrine-Brain-Immune-Network, and the Center for Mind, Brain, and Behavior<br />
+Date: September 2022<br />
+Description: This Autumn School Series in Ebsdorfergrund, Germany focused on neuroscience, immunology, and mental health/stress research at the nexus of the brain and lungs. The intensive week-long training consisted of daily lectures from the field’s leaders (9am-3pm), group discussions, and hands-on workshops (3-6pm). This was an extraordinary chance to connect with fellow trainees and senior researchers, explore multidisciplinary research methods from basic to clinical, and discuss novel research approaches and interventions. Trainees also presented posters and short oral presentations.<br />
+</p>
+<ul>
+<li>Schedule available <a href="https://github.com/higgins5/Portfolio/blob/main/documents/workshops/Lung_brain_axis_workshop_schedule.pdf">here</a><br />
+</li>
+<li>Additional information <a href="https://www.uni-giessen.de/de/fbz/zentren/ggl/events/autumnschool">here</a></li>
+</ul></li>
+</ol>
+</section>
+<section id="posters" class="level3" data-number="2.7">
+<h3 data-number="2.7"><span class="header-section-number">2.7</span> Posters</h3>
+<ol type="1">
+<li><p><strong>Higgins, E. T.</strong>, Busse, W. W., &amp; Rosenkranz, M. A. (2025). Functional cerebellar subnuclei are associated with stress-related responses to acute psychosocial stress in asthma. Poster to be presented at the Psychoneuroimmunology Research Society Annual Meeting: June, 2025; Bordeaux, France.<br />
+</p>
+<ul>
+<li>Poster draft (not finalized) available <a href="https://github.com/higgins5/Portfolio/blob/main/documents/posters/PNIRS2025_poster_draft.png">here</a><br />
+</li>
+</ul></li>
+<li><p><strong>Higgins, E. T.</strong>, Recchio, J., Nord, E., Barnes, A., Gresham, L., Rosenkranz, M. A., Davidson, R. J., Slavich, G. M., &amp; Schaefer, S. M. (2025). Inflammation and lifetime stressor severity are associated with blunted cortisol but not skin conductance responses to acute psychosocial stress. Citation poster presentation at the Society for Biopsychosocial Science and Medicine Annual Meeting; March, 2025; Seattle, WA<br />
+</p>
+<ul>
+<li>Poster available <a href="https://github.com/higgins5/Portfolio/blob/main/documents/posters/Higgins_SBSM2025_poster.png">here</a><br />
+</li>
+</ul></li>
+<li><p>Haeffner, C. E., <strong>Higgins, E. T.</strong>, Laubacher, C. M., Gresham, L. K., Barnes, A. L., Skinner, S. E., Abercrombie, H. C., Rosenkranz, M. A., Davidson, R. J., Slavich, G. M., Schaefer, S. M. Associations between lifetime stressor severity, amygdala and hippocampal volumes, and cortisol responses to acute stress. Poster presentation at the Society for Affective Science Conference; March, 2025; Portland, OR.<br />
+</p></li>
+<li><p>Morris, J., Poster, C., <strong>Higgins, E. T.</strong>, Sankaran, K., Mroczek, D., Schaefer, S. M. (2025). The time course of negative emotion and associations with time spent on work. Poster presentation at the Society for Affective Science Conference; March, 2025; Portland, OR.<br />
+</p></li>
+<li><p><strong>Higgins, E. T.</strong>, Busse, W. W., Grupe, D. W., Davidson, R. J., Rosenkranz, M. A. Mindfulness-Based Stress Reduction alters neural responses associated with asthma outcomes. Poster presented at the Mindfulness Mechanisms &amp; Methods Meeting. October, 2023; St. Louis, MS.<br />
+</p>
+<ul>
+<li>Poster available <a href="https://github.com/higgins5/Portfolio/blob/main/documents/posters/Higgins_M42023_poster.pdf">here</a><br />
+</li>
+</ul></li>
+<li><p><strong>Higgins, E. T.</strong>, Davidson, R. J., Busse, W. W., &amp; Rosenkranz, M. A. Brain functional changes associated with mindfulness training-related improvement in asthma control. Featured poster presentation at American Academy of Asthma, Allergy, &amp; Inflammation (AAAAI) Annual Meeting; February, 2022; Phoenix, AZ.<br />
+</p>
+<ul>
+<li>Poster available <a href="https://github.com/higgins5/Portfolio/blob/main/documents/posters/AAAAI_poster_final.pdf">here</a><br />
+</li>
+</ul></li>
+</ol>
+</section>
+</section>
+<section id="clinical-experiences" class="level2" data-number="3">
+<h2 data-number="3"><span class="header-section-number">3</span> Clinical Experiences</h2>
+<section id="practicum" class="level3" data-number="3.1">
+<h3 data-number="3.1"><span class="header-section-number">3.1</span> Practicum</h3>
+<p>Description: As a Research Assistant for an ongoing NIH-funded R01 study, I have over four semesters of experience administering cognitive assessments, including the Repeatable Battery for the Assessment of Neuropsychological Status (RBANS), the Mnemonic Similarity Task (MST), the Minnesota Card Sorting Test (MCST), and the Corsi block-tapping test. These assessments evaluate domains of cognitive functioning, including immediate and delayed memory, executive function, pattern separation (hippocampal function), attention, and spatial working memory. Comparing these aspects of cognitive functioning in participants with mild asthma, those with severe asthma, and healthy controls will provide both broad and fine-grained impressions of whether asthma may be a risk factor for cognitive impairment. Through this experience, I have gained a practical understanding of the nuance and care essential to effective, ethical participant interaction and data collection, especially with vulnerable populations such as those experiencing chronic illness or psychosocial adversity. I will continue running participants and administering these cognitive tests for the foreseeable future.<br />
+</p>
+<p>Additionally, this spring, I obtained my certification in Mental Health First Aid, equipping me to compassionately and effectively support individuals experiencing psychological distress or crisis. I am continuing to seek opportunities to administer psychosocial and/or personality assessments to address this gap in my training.<br />
+</p>
+<div class="cell">
+<div class="sourceCode" id="cb1"><pre class="sourceCode r cell-code"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>practicum <span class="ot">&lt;-</span> tibble<span class="sc">::</span><span class="fu">tibble</span>(<span class="at">Participant =</span> <span class="fu">c</span>(<span class="st">&quot;MI 3001&quot;</span>, <span class="st">&quot;MI 4011&quot;</span>, <span class="st">&quot;MI 4013&quot;</span>, </span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>                               <span class="st">&quot;MI 4015&quot;</span>, <span class="st">&quot;MI 4005&quot;</span>, <span class="st">&quot;MI 4017&quot;</span>, </span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>                               <span class="st">&quot;MI 4016&quot;</span>, <span class="st">&quot;MI 3003&quot;</span>, <span class="st">&quot;MI 4019&quot;</span>, </span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>                               <span class="st">&quot;MI 3006&quot;</span>, <span class="st">&quot;MI 4021&quot;</span>, <span class="st">&quot;MI 4023&quot;</span>, </span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>                               <span class="st">&quot;MI 3013&quot;</span>, <span class="st">&quot;MI 3015&quot;</span>, <span class="st">&quot;MI 4025&quot;</span>,</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>                               <span class="st">&quot;MI 4028&quot;</span>, <span class="st">&quot;MI 4031&quot;</span>),</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>               <span class="at">Date =</span> <span class="fu">c</span>(<span class="st">&quot;6/14/24&quot;</span>, <span class="st">&quot;7/2/24&quot;</span>, <span class="st">&quot;7/18/24&quot;</span>, <span class="st">&quot;9/5/24&quot;</span>, </span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>                        <span class="st">&quot;9/10/24&quot;</span>, <span class="st">&quot;10/17/24&quot;</span>, <span class="st">&quot;10/24/24&quot;</span>, <span class="st">&quot;10/31/24&quot;</span>, </span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>                        <span class="st">&quot;11/21/24&quot;</span>, <span class="st">&quot;11/26/24&quot;</span>, <span class="st">&quot;12/12/24&quot;</span>, <span class="st">&quot;2/4/25&quot;</span>, </span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>                        <span class="st">&quot;3/7/25&quot;</span>, <span class="st">&quot;3/7/25&quot;</span>, <span class="st">&quot;3/25/25&quot;</span>, <span class="st">&quot;4/8/25&quot;</span>, <span class="st">&quot;5/20/25&quot;</span>),</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>               <span class="at">Semester =</span> <span class="fu">c</span>(<span class="st">&quot;S24&quot;</span>, <span class="st">&quot;S24&quot;</span>, <span class="st">&quot;S24&quot;</span>, </span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>                            <span class="st">&quot;F24&quot;</span>, <span class="st">&quot;F24&quot;</span>, <span class="st">&quot;F24&quot;</span>, <span class="st">&quot;F24&quot;</span>, <span class="st">&quot;F24&quot;</span>, <span class="st">&quot;F24&quot;</span>, <span class="st">&quot;F24&quot;</span>, <span class="st">&quot;F24&quot;</span>,</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>                            <span class="st">&quot;Sp25&quot;</span>, <span class="st">&quot;Sp25&quot;</span>, <span class="st">&quot;Sp25&quot;</span>, <span class="st">&quot;Sp25&quot;</span>, <span class="st">&quot;Sp25&quot;</span>, <span class="st">&quot;Sp25&quot;</span>),</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>               <span class="st">`</span><span class="at">Assessment(s)</span><span class="st">`</span> <span class="ot">=</span> <span class="fu">rep</span>(<span class="st">&quot;RBANS, MST, Corsi, MCST&quot;</span>,<span class="dv">17</span>),</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>               <span class="st">`</span><span class="at">Duration (hours)</span><span class="st">`</span> <span class="ot">=</span> <span class="fu">c</span>(<span class="fl">0.75</span>, <span class="fl">0.75</span>, <span class="fl">0.75</span>, <span class="fl">0.75</span>, <span class="fl">0.75</span>, </span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>                                    <span class="fl">0.75</span>, <span class="fl">0.75</span>, <span class="fl">0.75</span>, <span class="fl">0.75</span>, <span class="fl">0.75</span>, </span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>                                    <span class="fl">0.75</span>, <span class="fl">0.75</span>, <span class="fl">0.75</span>, <span class="fl">0.5</span>, <span class="fl">0.75</span>, </span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>                                    <span class="fl">0.75</span>, <span class="fl">0.75</span>)) </span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>dplyr<span class="sc">::</span><span class="fu">bind_rows</span>(practicum,</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>          (practicum <span class="sc">|&gt;</span> dplyr<span class="sc">::</span><span class="fu">summarise</span>(</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>            <span class="at">Participant =</span> <span class="st">&quot;Total&quot;</span>,</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>            <span class="at">Date =</span> <span class="st">&quot;&quot;</span>,</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>            <span class="at">Semester =</span> <span class="st">&quot;&quot;</span>,</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>            <span class="st">`</span><span class="at">Assessment(s)</span><span class="st">`</span> <span class="ot">=</span> <span class="st">&quot;&quot;</span>,</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>            <span class="st">`</span><span class="at">Duration (hours)</span><span class="st">`</span> <span class="ot">=</span> <span class="fu">sum</span>(<span class="st">`</span><span class="at">Duration (hours)</span><span class="st">`</span>)))) <span class="sc">|&gt;</span> </span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>  knitr<span class="sc">::</span><span class="fu">kable</span>(<span class="at">digits =</span> <span class="dv">2</span>)</span></code></pre></div>
+<div class="cell-output-display">
+<table class="caption-top">
+<colgroup>
+<col style="width: 16%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 33%" />
+<col style="width: 23%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Participant</th>
+<th style="text-align: left;">Date</th>
+<th style="text-align: left;">Semester</th>
+<th style="text-align: left;">Assessment(s)</th>
+<th style="text-align: right;">Duration (hours)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">MI 3001</td>
+<td style="text-align: left;">6/14/24</td>
+<td style="text-align: left;">S24</td>
+<td style="text-align: left;">RBANS, MST, Corsi, MCST</td>
+<td style="text-align: right;">0.75</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">MI 4011</td>
+<td style="text-align: left;">7/2/24</td>
+<td style="text-align: left;">S24</td>
+<td style="text-align: left;">RBANS, MST, Corsi, MCST</td>
+<td style="text-align: right;">0.75</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">MI 4013</td>
+<td style="text-align: left;">7/18/24</td>
+<td style="text-align: left;">S24</td>
+<td style="text-align: left;">RBANS, MST, Corsi, MCST</td>
+<td style="text-align: right;">0.75</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">MI 4015</td>
+<td style="text-align: left;">9/5/24</td>
+<td style="text-align: left;">F24</td>
+<td style="text-align: left;">RBANS, MST, Corsi, MCST</td>
+<td style="text-align: right;">0.75</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">MI 4005</td>
+<td style="text-align: left;">9/10/24</td>
+<td style="text-align: left;">F24</td>
+<td style="text-align: left;">RBANS, MST, Corsi, MCST</td>
+<td style="text-align: right;">0.75</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">MI 4017</td>
+<td style="text-align: left;">10/17/24</td>
+<td style="text-align: left;">F24</td>
+<td style="text-align: left;">RBANS, MST, Corsi, MCST</td>
+<td style="text-align: right;">0.75</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">MI 4016</td>
+<td style="text-align: left;">10/24/24</td>
+<td style="text-align: left;">F24</td>
+<td style="text-align: left;">RBANS, MST, Corsi, MCST</td>
+<td style="text-align: right;">0.75</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">MI 3003</td>
+<td style="text-align: left;">10/31/24</td>
+<td style="text-align: left;">F24</td>
+<td style="text-align: left;">RBANS, MST, Corsi, MCST</td>
+<td style="text-align: right;">0.75</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">MI 4019</td>
+<td style="text-align: left;">11/21/24</td>
+<td style="text-align: left;">F24</td>
+<td style="text-align: left;">RBANS, MST, Corsi, MCST</td>
+<td style="text-align: right;">0.75</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">MI 3006</td>
+<td style="text-align: left;">11/26/24</td>
+<td style="text-align: left;">F24</td>
+<td style="text-align: left;">RBANS, MST, Corsi, MCST</td>
+<td style="text-align: right;">0.75</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">MI 4021</td>
+<td style="text-align: left;">12/12/24</td>
+<td style="text-align: left;">F24</td>
+<td style="text-align: left;">RBANS, MST, Corsi, MCST</td>
+<td style="text-align: right;">0.75</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">MI 4023</td>
+<td style="text-align: left;">2/4/25</td>
+<td style="text-align: left;">Sp25</td>
+<td style="text-align: left;">RBANS, MST, Corsi, MCST</td>
+<td style="text-align: right;">0.75</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">MI 3013</td>
+<td style="text-align: left;">3/7/25</td>
+<td style="text-align: left;">Sp25</td>
+<td style="text-align: left;">RBANS, MST, Corsi, MCST</td>
+<td style="text-align: right;">0.75</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">MI 3015</td>
+<td style="text-align: left;">3/7/25</td>
+<td style="text-align: left;">Sp25</td>
+<td style="text-align: left;">RBANS, MST, Corsi, MCST</td>
+<td style="text-align: right;">0.50</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">MI 4025</td>
+<td style="text-align: left;">3/25/25</td>
+<td style="text-align: left;">Sp25</td>
+<td style="text-align: left;">RBANS, MST, Corsi, MCST</td>
+<td style="text-align: right;">0.75</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">MI 4028</td>
+<td style="text-align: left;">4/8/25</td>
+<td style="text-align: left;">Sp25</td>
+<td style="text-align: left;">RBANS, MST, Corsi, MCST</td>
+<td style="text-align: right;">0.75</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">MI 4031</td>
+<td style="text-align: left;">5/20/25</td>
+<td style="text-align: left;">Sp25</td>
+<td style="text-align: left;">RBANS, MST, Corsi, MCST</td>
+<td style="text-align: right;">0.75</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Total</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: right;">12.50</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+</section>
+<section id="diversity-experiences" class="level2" data-number="4">
+<h2 data-number="4"><span class="header-section-number">4</span> Diversity Experiences</h2>
+<section id="diversity-statement" class="level3" data-number="4.1">
+<h3 data-number="4.1"><span class="header-section-number">4.1</span> Diversity Statement</h3>
+<p>I actively integrate principles of diversity, equity, and inclusion in my research, training, and mentorship to ensure that psychoneuroimmunology research reflects and serves all identities. This means intentionally including, respecting, and amplifying diverse voices, perspectives, and lived experiences across all levels of engagement, from research participants to collaborators to mentees. Our interdisciplinary approach strengthens our ability to address health inequities holistically by integrating community, public health, biomedical, and physician perspectives to inform questions and protocols.<br />
+</p>
+<p>My research and training are rooted in a critical understanding that systemic inequities impact the body, mind, and brain. While focusing on proximal mechanisms linking stress, immune dysregulation, and health, it is essential to acknowledge that social and structural forces shape these biological processes. For example, stress and adversity disproportionately affect individuals and communities targeted by structural inequality, contributing to whole-body wear-and-tear, inflammation, and neurobiological changes—candidate biological pathways through which systemic barriers contribute to health disparities. Understanding these mechanisms in context is key to informing interventions that promote equitable health outcomes.<br />
+</p>
+<p>The populations we work with often face challenges such as psychosocial stress, chronic inflammation, and co-occurring physical and mental health conditions. In particular, asthma is more prevalent among females, low-income individuals, and Black, American Indian/Alaska Native, and multiracial populations, who are often underserved in medical and psychological practice and research. Listening to and learning from participants’ lived experiences has deepened my understanding of sociocultural, economic, and health-related barriers shaping access to care and wellbeing. Going forward, I aim to serve historically marginalized and at-risk populations more directly. One essential step toward this goal is collecting more representative samples in our studies, which is critical to translating our findings equitably.<br />
+</p>
+<p>As a woman in the sciences, navigating predominantly white, male-dominated spaces has heightened my awareness of obstacles faced by underrepresented groups in science. This fuels my continued commitment to amplifying diverse voices and creating supportive research and mentorship environments. Specifically, I have prioritized mentoring and learning from undergraduate and graduate trainees who identify as female, low-income, neurodivergent, or from otherwise underrepresented backgrounds. During graduate school, I have mentored or co-mentored five female undergraduate and six female graduate students, each of whom brought unique intersectional identities shaping their lived experiences and perspectives in science. Building heterogeneous teams encourages creativity and captures broader perspectives, leading to unique, impactful scientific contributions.<br />
+</p>
+<p>As a mentor, I prioritize curiosity, respect, and collaboration. I strive to cultivate supportive spaces for honest dialogue, to build meaningful relationships, and to maintain clear communication. I also normalize struggle, recognizing that some aspects of science can feel inaccessible to some students from under-resourced backgrounds. I am particularly committed to making data science more accessible and leveraging this as a tool to broaden participation in science and increase equitable scientific engagement.<br />
+</p>
+<p>Importantly, I recognize the privilege that I hold as a member of several dominant sociocultural groups. I remain dedicated to educating myself; incorporating equity-focused practices in training, mentoring, and collaborations; and centering diverse perspectives in the theory, literature, and methods guiding my work.<br />
+</p>
+</section>
+</section>
+<section id="teaching-and-mentoring-experiences" class="level2" data-number="5">
+<h2 data-number="5"><span class="header-section-number">5</span> Teaching and Mentoring Experiences</h2>
+<p>The role of a scientist extends beyond research to include mentoring and supporting science learners. Alongside my coursework and lab responsibilities, I have intentionally developed leadership, mentorship, and communication skills, with a focus on applied data science in human behavior. Data science methods are complex yet indispensable tools for scientists across disciplines and for science literacy among non-experts. Throughout graduate school, I have leveraged my statistics expertise to provide both individualized mentorship and small-group advising. My approach to mentorship is grounded in curiosity, collaboration, and open communication. I strive to cultivate an inclusive and supportive environment that welcomes diverse backgrounds and perspectives without judgment, emphasizes a growth mindset, and empowers mentees to take initiative.<br />
+</p>
+<p>In line with my interests and this approach, I have led several statistical presentations and discussions in the Rosenkranz Lab, including on topics such as Piecewise Linear Mixed Models (presentation slides <a href="https://github.com/higgins5/Portfolio/blob/main/documents/presentations/Higgins_PiecewiseLMEM.pdf">here</a>), Advanced Outlier Detection and Effect Size (slides <a href="https://github.com/higgins5/Portfolio/blob/main/documents/presentations/Higgins_Cook&#39;sD_EffectSizes.pdf">here</a>), and Multiple Imputation in Longitudinal/Mixed Model Analyses (slides <a href="https://github.com/higgins5/Portfolio/blob/main/documents/presentations/Higgins_multipleimputation.pdf">here</a>). Additionally, I have provided statistical support and data visualizations for collaborators analyzing salivary cortisol data using multilevel modeling (example <a href="https://docs.google.com/document/d/1xASuuZPJLxRfzrwP_d3cOHdzkq5gO5HGzKA-N1SVnbY/edit?tab=t.0">here</a>). These opportunities have strengthened my ability to distill and communicate technically complex information into clear, accessible insights for multiple audiences, while enhancing my proficiency in delivering presentations and facilitating discussions.<br />
+</p>
+<p>Further highlighting my commitment to data science mentorship, I have served as a PhD mentor for students pursuing their M.S. in Psychology: Data Science in Human Behavior for the past four semesters, beginning in spring semester 2024. In this role, I guide groups of 2-4 students to develop theory-grounded, application-oriented questions and hypotheses, supporting both semester projects and final Capstone projects. I also advise data management, statistical modeling, and interpretation for these projects, meeting with students at least once per week. Mentees and I also discuss their short- and long-term goals. See Faculty Chat video <a href="https://datascience.psych.wisc.edu/2025/02/17/faculty-chat-with-estelle-higgins/">here</a> for more details. We have partnered with Healthy Minds Innovations to analyze large-scale multidimensional data from the <a href="https://hminnovations.org/meditation-app">Healthy Minds Program app</a>. In this role I have fostered students’ critical thinking and science communication skills, refined my leadership and mentoring philosophy, and expanded my experience in analyzing large datasets to answer questions aligned with my wellbeing research goals.<br />
+</p>
+<p>In addition to mentoring master’s students, I have worked closely with several undergraduate students. Since spring semester 2023, I have provided basic and advanced statistical guidance, writing and poster feedback, and career development mentorship for an honors Neurobiology undergraduate senior. Following her graduation, she joined the NIH Intramural Postbaccalaureate Program and will start her PhD at Yale University in Fall 2025. Together, we are finalizing a co-first-author manuscript reporting intersections between lifetime stressor exposure, amygdalar and hippocampal structure, and acute stress-related cortisol responses.<br />
+</p>
+<p>Since fall semester 2023, I have closely mentored an undergraduate research assistant in the Rosenkranz Lab, providing academic, professional, and personal support. With our guidance, she has completed several small independent projects spanning literature review, research proposal, and data analysis, and she plans to assist with data collection. As a 2025 Hilldale Fellow, her senior honors thesis in Psychology and Neurobiology will investigate the relationships among asthma, depression, and gut microbiota.<br />
+</p>
+<p>During summer and fall semesters of 2024, I offered extensive statistical mentorship for a senior honors thesis in Psychology. The project used piecewise linear mixed-effects models with nested random effects to assess relationships between the time course of negative emotional responses and time spent on work. The student will continue his research training this summer at the McGill Neurological Institute with the support of a Fulbright scholarship.<br />
+</p>
+<p>These mentorship experiences have not only been enriching learning opportunities for me to further develop my interpersonal and technical skills, but they have also reaffirmed the importance of supporting students in identifying and cultivating their potential—reflected in part by their unique outstanding achievements.<br />
+</p>
+<p>It is vital to me to take a holistic approach to mentorship, encompassing not just statistical and research advising but also career, professional, and personal guidance, as appropriate. For instance, with each mentee, I discuss their individual goals, barriers they may have faced, and how we can work together to support their learning and growth. I remain dedicated to mentoring both undergraduate and graduate students, including the three current undergraduates in the Rosenkranz Lab, the current Data Science in Human Behavior graduate cohort, and future trainees. Mentorship will remain an integral part of my academic and professional journey.<br />
+</p>
+</section>
+     </main>
+<!-- /main column -->  <script id = "quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>  </div> <!-- /content --> 
+  </body>
+</html>
