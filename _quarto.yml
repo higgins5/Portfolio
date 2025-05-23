@@ -13,8 +13,6 @@ format:
     linestretch: 1.6
     css: styles.css
     title-block-banner: "#f4f4f4"
-    number-sections: true 
-    number-depth: 3
   docx: 
     reference-doc: reference.docx 
     toc: TRUE

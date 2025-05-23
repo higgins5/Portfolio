@@ -5,6 +5,8 @@ author:
     affiliations:
       - Department of Psychology, University of Wisconsin-Madison
 date: last-modified
+number-sections: true 
+number-depth: 3
 editor_options: 
   chunk_output_type: console
 ---
