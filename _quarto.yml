@@ -13,6 +13,9 @@ format:
     linestretch: 1.6
     css: styles.css
     title-block-banner: "#f4f4f4"
+    toc: true 
+    number-sections: true 
+    toc-location: left
   docx: 
     reference-doc: reference.docx 
     toc: TRUE
